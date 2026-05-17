@@ -10,24 +10,25 @@ import FlashCard from "@/components/FlashCard";
 export default function FlashcardsPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
   const chapter = getChapterById(id);
-  if (!chapter) notFound();
+  if (!chapter) return notFound();
 
   const { markKnown } = useProgress();
   const [current, setCurrent] = useState(0);
   const [knownCount, setKnownCount] = useState(0);
   const [done, setDone] = useState(false);
 
+  const chapterId = chapter.id;
   const terms = chapter.terms;
 
   function handleKnow() {
-    markKnown(chapter.id, terms[current].id, true);
+    markKnown(chapterId, terms[current].id, true);
     setKnownCount((k) => k + 1);
     if (current + 1 >= terms.length) setDone(true);
     else setCurrent((c) => c + 1);
   }
 
   function handleSkip() {
-    markKnown(chapter.id, terms[current].id, false);
+    markKnown(chapterId, terms[current].id, false);
     if (current + 1 >= terms.length) setDone(true);
     else setCurrent((c) => c + 1);
   }

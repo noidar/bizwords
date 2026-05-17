@@ -88,6 +88,20 @@ export default function Home() {
           </div>
         </Link>
 
+        {/* Resources link */}
+        <Link href="/resources">
+          <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex items-center gap-4 hover:shadow-md transition-shadow cursor-pointer">
+            <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-slate-500 to-gray-400 flex items-center justify-center text-2xl shrink-0">
+              📚
+            </div>
+            <div className="flex-1">
+              <p className="font-semibold text-gray-900 text-sm">Source Materials</p>
+              <p className="text-xs text-gray-400 mt-0.5">All 14 chapters · Free textbook · 80+ sections</p>
+            </div>
+            <span className="text-gray-300 text-sm">→</span>
+          </div>
+        </Link>
+
         {/* Chapters grid */}
         <div>
           <h2 className="text-base font-bold text-gray-700 mb-3">All Chapters</h2>

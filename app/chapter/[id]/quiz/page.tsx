@@ -10,12 +10,14 @@ import Quiz from "@/components/Quiz";
 export default function QuizPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
   const chapter = getChapterById(id);
-  if (!chapter) notFound();
+  if (!chapter) return notFound();
 
   const { finishQuiz } = useProgress();
 
+  const chapterId = chapter.id;
+
   function handleFinish(correct: number, total: number) {
-    finishQuiz(chapter.id, correct, total);
+    finishQuiz(chapterId, correct, total);
   }
 
   return (

@@ -10,7 +10,7 @@ import { getChapterCompletionPct } from "@/lib/progress";
 export default function ChapterPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
   const chapter = getChapterById(id);
-  if (!chapter) notFound();
+  if (!chapter) return notFound();
 
   const { progress } = useProgress();
   const pct = getChapterCompletionPct(progress, chapter.id, chapter.terms.length);
