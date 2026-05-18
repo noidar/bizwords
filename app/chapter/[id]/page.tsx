@@ -21,7 +21,7 @@ export default function ChapterPage({ params }: { params: Promise<{ id: string }
     <main className="min-h-screen bg-gray-50">
       {/* Header */}
       <div className="bg-white border-b border-gray-100 sticky top-0 z-10">
-        <div className="max-w-lg mx-auto px-4 py-4 flex items-center gap-3">
+        <div className="max-w-4xl mx-auto px-4 md:px-8 py-4 flex items-center gap-3">
           <Link href="/" className="w-9 h-9 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-gray-200 transition-colors">
             ←
           </Link>
@@ -31,7 +31,7 @@ export default function ChapterPage({ params }: { params: Promise<{ id: string }
         </div>
       </div>
 
-      <div className="max-w-lg mx-auto px-4 py-6 flex flex-col gap-6">
+      <div className="max-w-4xl mx-auto px-4 md:px-8 py-6 flex flex-col gap-6">
         {/* Chapter hero */}
         <div className={`rounded-3xl bg-gradient-to-br ${chapter.color} p-6 text-white shadow-lg`}>
           <div className="text-5xl mb-3">{chapter.emoji}</div>

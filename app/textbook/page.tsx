@@ -19,7 +19,7 @@ export default function TextbookIndexPage() {
     <main className="min-h-screen bg-gray-50">
       {/* Nav */}
       <div className="bg-white border-b border-gray-100 sticky top-0 z-10">
-        <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 2rem" }} className="py-4 flex items-center gap-4">
+        <div className="page-container py-4 flex items-center gap-4 flex-wrap">
           <Link href="/" className="w-9 h-9 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-gray-200 transition-colors">←</Link>
           <div className="w-px h-5 bg-gray-200" />
           <div className="text-2xl">📗</div>
@@ -39,7 +39,7 @@ export default function TextbookIndexPage() {
         </div>
       </div>
 
-      <div style={{ maxWidth: 1280, margin: "0 auto", padding: "2rem" }}>
+      <div className="page-content">
 
         {/* Setup banner — shown when HTML files haven't been parsed yet */}
         {stubChapters.length > 0 && (
@@ -100,7 +100,7 @@ export default function TextbookIndexPage() {
               Chapters with Full Reader
               <span className="ml-2 text-sm font-normal text-gray-400">({parsedChapters.length} chapters)</span>
             </h2>
-            <div className="grid grid-cols-2 gap-4 mb-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
               {parsedChapters.map((ch) => (
                 <Link key={ch.id} href={`/textbook/${ch.id}`}>
                   <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm hover:shadow-md transition-all hover:-translate-y-0.5 cursor-pointer flex gap-4 items-start">
@@ -133,7 +133,7 @@ export default function TextbookIndexPage() {
               Chapters — Read on Source Site
               <span className="ml-2 text-sm font-normal text-gray-400">(run scripts to parse locally)</span>
             </h2>
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {stubChapters.map((ch) => (
                 <a key={ch.id} href={ch.url} target="_blank" rel="noopener noreferrer">
                   <div className="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm hover:shadow-md transition-all cursor-pointer flex gap-3 items-center">

@@ -34,7 +34,7 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50">
       {/* ── Nav ── */}
       <div className="bg-white border-b border-gray-100 sticky top-0 z-10">
-        <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 2rem" }} className="py-4 flex items-center justify-between">
+        <div className="page-container py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-xl bg-indigo-600 flex items-center justify-center text-white font-bold">B</div>
             <div>
@@ -42,40 +42,46 @@ export default function Home() {
               <p className="text-xs text-gray-400">Business English Mastery</p>
             </div>
           </div>
-          <div className="flex items-center gap-4">
-            <Link href="/textbook" className="text-sm text-gray-500 hover:text-indigo-600 font-medium transition-colors">📗 Textbook Reader</Link>
-            <Link href="/resources" className="text-sm text-gray-500 hover:text-indigo-600 font-medium transition-colors">📚 Source Materials</Link>
+          <div className="flex items-center gap-4 flex-wrap">
+            <Link href="/textbook" className="text-sm text-gray-500 hover:text-indigo-600 font-medium transition-colors hidden sm:inline">📗 Textbook Reader</Link>
+            <Link href="/resources" className="text-sm text-gray-500 hover:text-indigo-600 font-medium transition-colors hidden sm:inline">📚 Source Materials</Link>
             <ProgressManager />
             <StreakBadge streak={progress.streak} />
           </div>
         </div>
       </div>
 
-      <div style={{ maxWidth: 1280, margin: "0 auto", padding: "2rem" }}>
+      <div className="page-content">
+        {/* ── Mobile nav links (shown on small screens) ── */}
+        <div className="flex gap-3 mb-4 sm:hidden">
+          <Link href="/textbook" className="flex-1 text-center text-sm text-gray-500 hover:text-indigo-600 font-medium bg-white rounded-xl py-2 border border-gray-100">📗 Textbook</Link>
+          <Link href="/resources" className="flex-1 text-center text-sm text-gray-500 hover:text-indigo-600 font-medium bg-white rounded-xl py-2 border border-gray-100">📚 Resources</Link>
+        </div>
+
         {/* ── Stats row ── */}
-        <div className="grid grid-cols-4 gap-5 mb-8">
-          <div className="col-span-2 bg-white rounded-3xl p-6 shadow-sm border border-gray-100 flex flex-col gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-8">
+          <div className="md:col-span-2 bg-white rounded-3xl p-6 shadow-sm border border-gray-100 flex flex-col gap-4">
             <XPBar xp={progress.xp} level={progress.level} />
-            <div className="flex divide-x divide-gray-100 mt-1">
-              <div className="flex-1 text-center pr-4">
-                <p className="text-3xl font-bold text-indigo-600">{totalKnown}</p>
+            <div className="flex flex-wrap divide-x divide-gray-100 mt-1">
+              <div className="flex-1 text-center px-3 min-w-[80px]">
+                <p className="text-2xl md:text-3xl font-bold text-indigo-600">{totalKnown}</p>
                 <p className="text-xs text-gray-400 mt-0.5">words learned</p>
               </div>
-              <div className="flex-1 text-center px-4">
-                <p className="text-3xl font-bold text-indigo-600">{overallPct}%</p>
+              <div className="flex-1 text-center px-3 min-w-[80px]">
+                <p className="text-2xl md:text-3xl font-bold text-indigo-600">{overallPct}%</p>
                 <p className="text-xs text-gray-400 mt-0.5">overall progress</p>
               </div>
-              <div className="flex-1 text-center px-4">
-                <p className="text-3xl font-bold text-indigo-600">{progress.xp}</p>
+              <div className="flex-1 text-center px-3 min-w-[80px]">
+                <p className="text-2xl md:text-3xl font-bold text-indigo-600">{progress.xp}</p>
                 <p className="text-xs text-gray-400 mt-0.5">total XP</p>
               </div>
-              <div className="flex-1 text-center pl-4">
-                <p className="text-3xl font-bold text-orange-500">{progress.streak}</p>
+              <div className="flex-1 text-center px-3 min-w-[80px]">
+                <p className="text-2xl md:text-3xl font-bold text-orange-500">{progress.streak}</p>
                 <p className="text-xs text-gray-400 mt-0.5">day streak 🔥</p>
               </div>
             </div>
           </div>
-          <Link href={`/chapter/${chapters[0].id}`} className="col-span-1">
+          <Link href={`/chapter/${chapters[0].id}`} className="md:col-span-1">
             <div className="h-full rounded-3xl bg-gradient-to-br from-indigo-600 to-violet-500 p-6 text-white shadow-lg hover:shadow-xl transition-shadow cursor-pointer flex flex-col justify-between">
               <div>
                 <p className="text-indigo-200 text-xs font-semibold uppercase tracking-widest mb-2">Today&apos;s Lesson</p>
@@ -88,7 +94,7 @@ export default function Home() {
               </div>
             </div>
           </Link>
-          <Link href="/textbook" className="col-span-1">
+          <Link href="/textbook" className="md:col-span-1">
             <div className="h-full rounded-3xl bg-gradient-to-br from-slate-600 to-slate-500 p-6 text-white shadow-lg hover:shadow-xl transition-shadow cursor-pointer flex flex-col justify-between">
               <div>
                 <p className="text-slate-300 text-xs font-semibold uppercase tracking-widest mb-2">Full Textbook</p>
@@ -104,7 +110,7 @@ export default function Home() {
 
         {/* ── Chapter grid ── */}
         <h2 className="text-base font-bold text-gray-700 mb-4">All Chapters</h2>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {chapters.map((ch) => {
             const pct = getChapterCompletionPct(progress, ch.id, ch.terms.length);
             const quizScore = progress.chapterProgress[ch.id]?.quizScore;

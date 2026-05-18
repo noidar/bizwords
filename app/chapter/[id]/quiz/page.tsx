@@ -24,7 +24,7 @@ export default function QuizPage({ params }: { params: Promise<{ id: string }> }
     <main className="min-h-screen bg-gray-50">
       {/* Header */}
       <div className="bg-white border-b border-gray-100 sticky top-0 z-10">
-        <div className="max-w-lg mx-auto px-4 py-4 flex items-center gap-3">
+        <div className="max-w-4xl mx-auto px-4 md:px-8 py-4 flex items-center gap-3">
           <Link href={`/chapter/${id}`} className="w-9 h-9 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-gray-200 transition-colors">
             ←
           </Link>
@@ -36,7 +36,7 @@ export default function QuizPage({ params }: { params: Promise<{ id: string }> }
         </div>
       </div>
 
-      <div className="max-w-lg mx-auto px-4 py-8">
+      <div className="max-w-4xl mx-auto px-4 md:px-8 py-8">
         <Quiz
           terms={chapter.terms}
           onFinish={(correct, total) => {

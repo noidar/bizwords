@@ -268,7 +268,7 @@ export default function TextbookChapterPage({ params }: { params: Promise<{ chap
     <main className="min-h-screen bg-gray-50">
       {/* ── Nav ── */}
       <div className="bg-white border-b border-gray-100 sticky top-0 z-20">
-        <div className="max-w-7xl mx-auto px-8 py-3 flex items-center gap-4">
+        <div className="page-container py-3 flex items-center gap-4">
           <Link href="/textbook" className="w-9 h-9 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-gray-200 transition-colors shrink-0">
             ←
           </Link>
@@ -288,10 +288,10 @@ export default function TextbookChapterPage({ params }: { params: Promise<{ chap
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-8 flex gap-8 py-8">
+      <div className="page-content flex flex-col lg:flex-row gap-8">
 
         {/* ── Sidebar ── */}
-        <aside className="w-64 shrink-0">
+        <aside className="w-full lg:w-64 shrink-0">
           <div className={`rounded-2xl bg-gradient-to-br ${chapter.color} p-4 text-white mb-4`}>
             <div className="text-3xl mb-2">{chapter.emoji}</div>
             <p className="text-xs text-white/70 font-semibold uppercase tracking-wider">Chapter {chapter.num}</p>
@@ -353,7 +353,7 @@ export default function TextbookChapterPage({ params }: { params: Promise<{ chap
           {activeSection.keyTerms.length > 0 && (
             <div className="mt-10 border-t border-gray-200 pt-8">
               <h3 className="text-xl font-bold text-gray-900 mb-4">📚 Key Terms</h3>
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {activeSection.keyTerms.map((kt, i) => (
                   <div key={i} className="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm">
                     <p className="font-bold text-gray-900 text-sm">{kt.term}</p>
