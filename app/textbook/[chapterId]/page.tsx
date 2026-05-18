@@ -1,0 +1,418 @@
+"use client";
+
+import { use, useState } from "react";
+import Link from "next/link";
+import { getTextbookChapter } from "@/data/textbook";
+
+// ── Lightweight markdown renderer (no dependencies) ────────────────────────
+function renderMarkdown(md: string): React.ReactNode[] {
+  const nodes: React.ReactNode[] = [];
+  const lines = md.split("\n");
+  let i = 0;
+  let key = 0;
+
+  while (i < lines.length) {
+    const line = lines[i];
+
+    // Blank line
+    if (!line.trim()) { i++; continue; }
+
+    // ## Heading 2
+    if (line.startsWith("## ")) {
+      nodes.push(
+        <h2 key={key++} className="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-200">
+          {inlineFormat(line.slice(3))}
+        </h2>
+      );
+      i++; continue;
+    }
+
+    // ### Heading 3
+    if (line.startsWith("### ")) {
+      nodes.push(
+        <h3 key={key++} className="text-lg font-bold text-gray-800 mt-7 mb-3">
+          {inlineFormat(line.slice(4))}
+        </h3>
+      );
+      i++; continue;
+    }
+
+    // #### Heading 4
+    if (line.startsWith("#### ")) {
+      nodes.push(
+        <h4 key={key++} className="text-base font-bold text-gray-700 mt-5 mb-2">
+          {inlineFormat(line.slice(5))}
+        </h4>
+      );
+      i++; continue;
+    }
+
+    // Table row: A | B | C
+    if (line.includes(" | ")) {
+      const tableLines: string[] = [];
+      while (i < lines.length && lines[i].includes(" | ")) {
+        tableLines.push(lines[i]);
+        i++;
+      }
+      const rows = tableLines.map((r) => r.split(" | ").map((c) => c.trim()));
+      const isHeader = tableLines[0].startsWith("| ") || rows[0].every((c) => c.replace(/-/g, "").trim() === "");
+      const dataRows = isHeader ? rows.slice(1) : rows;
+      const header = isHeader ? rows[0] : null;
+      nodes.push(
+        <div key={key++} className="overflow-x-auto my-6">
+          <table className="w-full text-sm border-collapse rounded-xl overflow-hidden shadow-sm">
+            {header && (
+              <thead>
+                <tr className="bg-indigo-50">
+                  {header.map((h, ci) => (
+                    <th key={ci} className="text-left px-4 py-3 font-semibold text-indigo-700 border-b border-indigo-100">
+                      {inlineFormat(h)}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+            )}
+            <tbody>
+              {dataRows.filter(r => r.some(c => c)).map((row, ri) => (
+                <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                  {row.map((cell, ci) => (
+                    <td key={ci} className="px-4 py-3 text-gray-800 border-b border-gray-100">
+                      {inlineFormat(cell)}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+      continue;
+    }
+
+    // Bullet list
+    if (line.startsWith("• ") || line.startsWith("- ")) {
+      const items: string[] = [];
+      while (i < lines.length && (lines[i].startsWith("• ") || lines[i].startsWith("- "))) {
+        items.push(lines[i].slice(2));
+        i++;
+      }
+      nodes.push(
+        <ul key={key++} className="my-4 space-y-2 ml-4">
+          {items.map((item, idx) => (
+            <li key={idx} className="flex gap-2 text-gray-800">
+              <span className="text-indigo-400 mt-1 shrink-0">•</span>
+              <span>{inlineFormat(item)}</span>
+            </li>
+          ))}
+        </ul>
+      );
+      continue;
+    }
+
+    // Numbered list
+    if (/^\d+\. /.test(line)) {
+      const items: string[] = [];
+      while (i < lines.length && /^\d+\. /.test(lines[i])) {
+        items.push(lines[i].replace(/^\d+\. /, ""));
+        i++;
+      }
+      nodes.push(
+        <ol key={key++} className="my-4 space-y-2 ml-4 list-decimal">
+          {items.map((item, idx) => (
+            <li key={idx} className="text-gray-800 ml-4">
+              {inlineFormat(item)}
+            </li>
+          ))}
+        </ol>
+      );
+      continue;
+    }
+
+    // Blockquote / example
+    if (line.startsWith("> ")) {
+      nodes.push(
+        <blockquote key={key++} className="border-l-4 border-indigo-300 bg-indigo-50 px-5 py-3 my-4 rounded-r-xl text-gray-700 italic">
+          {inlineFormat(line.slice(2))}
+        </blockquote>
+      );
+      i++; continue;
+    }
+
+    // Regular paragraph — accumulate consecutive lines
+    const paraLines: string[] = [];
+    while (
+      i < lines.length &&
+      lines[i].trim() &&
+      !lines[i].startsWith("#") &&
+      !lines[i].startsWith("• ") &&
+      !lines[i].startsWith("- ") &&
+      !/^\d+\. /.test(lines[i]) &&
+      !lines[i].includes(" | ") &&
+      !lines[i].startsWith("> ")
+    ) {
+      paraLines.push(lines[i]);
+      i++;
+    }
+    if (paraLines.length) {
+      nodes.push(
+        <p key={key++} className="text-gray-800 leading-relaxed my-3 text-base">
+          {inlineFormat(paraLines.join(" "))}
+        </p>
+      );
+    }
+  }
+  return nodes;
+}
+
+// Inline bold/italic formatting
+function inlineFormat(text: string): React.ReactNode {
+  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
+  return (
+    <>
+      {parts.map((part, i) => {
+        if (part.startsWith("**") && part.endsWith("**")) {
+          return <strong key={i} className="font-bold text-gray-900">{part.slice(2, -2)}</strong>;
+        }
+        if (part.startsWith("*") && part.endsWith("*")) {
+          return <em key={i} className="italic text-gray-700">{part.slice(1, -1)}</em>;
+        }
+        return <span key={i}>{part}</span>;
+      })}
+    </>
+  );
+}
+
+// ── Page component ─────────────────────────────────────────────────────────
+export default function TextbookChapterPage({ params }: { params: Promise<{ chapterId: string }> }) {
+  const { chapterId } = use(params);
+  const chapter = getTextbookChapter(chapterId);
+  const [activeSectionId, setActiveSectionId] = useState<string>(
+    chapter?.sections[0]?.id ?? ""
+  );
+
+  if (!chapter) {
+    return (
+      <main className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <p className="text-5xl mb-4">📭</p>
+          <h2 className="text-xl font-bold text-gray-700">Chapter not found</h2>
+          <Link href="/textbook" className="mt-4 inline-block text-indigo-600 hover:underline">← Back to textbook</Link>
+        </div>
+      </main>
+    );
+  }
+
+  // If no parsed sections, redirect to source
+  if (chapter.sections.length === 0) {
+    return (
+      <main className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center max-w-md">
+          <div className={`w-20 h-20 rounded-3xl bg-gradient-to-br ${chapter.color} flex items-center justify-center text-4xl mx-auto mb-4`}>
+            {chapter.emoji}
+          </div>
+          <h2 className="text-2xl font-bold text-gray-900">Chapter {chapter.num}</h2>
+          <p className="text-gray-500 mt-2 text-lg">{chapter.title}</p>
+          <p className="text-gray-400 mt-4 text-sm">
+            This chapter hasn&apos;t been parsed into the local reader yet. Download the source files and run the parser to enable the full reader.
+          </p>
+          <div className="mt-6 flex gap-3 justify-center">
+            <a
+              href={chapter.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-5 py-3 bg-indigo-600 text-white rounded-2xl font-semibold text-sm hover:bg-indigo-700 transition-colors"
+            >
+              Read on source site ↗
+            </a>
+            <Link href="/textbook" className="px-5 py-3 bg-gray-100 text-gray-600 rounded-2xl font-semibold text-sm hover:bg-gray-200 transition-colors">
+              ← Back
+            </Link>
+          </div>
+          <div className="mt-6 bg-gray-50 border border-gray-200 rounded-2xl p-4 text-left">
+            <p className="text-xs font-mono text-gray-500 mb-1">To enable local reader:</p>
+            <code className="text-xs font-mono text-indigo-600 block">
+              ./scripts/download-source.sh
+            </code>
+          </div>
+        </div>
+      </main>
+    );
+  }
+
+  const activeSection = chapter.sections.find((s) => s.id === activeSectionId) ?? chapter.sections[0];
+
+  return (
+    <main className="min-h-screen bg-gray-50">
+      {/* ── Nav ── */}
+      <div className="bg-white border-b border-gray-100 sticky top-0 z-20">
+        <div className="max-w-7xl mx-auto px-8 py-3 flex items-center gap-4">
+          <Link href="/textbook" className="w-9 h-9 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-gray-200 transition-colors shrink-0">
+            ←
+          </Link>
+          <div className="w-px h-5 bg-gray-200 shrink-0" />
+          <span className="text-xl shrink-0">{chapter.emoji}</span>
+          <div className="min-w-0 flex-1">
+            <h1 className="text-sm font-bold text-gray-900 truncate">Ch.{chapter.num} — {chapter.title}</h1>
+          </div>
+          <a
+            href={chapter.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="shrink-0 text-xs text-gray-400 hover:text-indigo-600 transition-colors"
+          >
+            source ↗
+          </a>
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-8 flex gap-8 py-8">
+
+        {/* ── Sidebar ── */}
+        <aside className="w-64 shrink-0">
+          <div className={`rounded-2xl bg-gradient-to-br ${chapter.color} p-4 text-white mb-4`}>
+            <div className="text-3xl mb-2">{chapter.emoji}</div>
+            <p className="text-xs text-white/70 font-semibold uppercase tracking-wider">Chapter {chapter.num}</p>
+            <p className="font-bold text-sm mt-0.5 leading-snug">{chapter.title}</p>
+          </div>
+
+          <nav className="flex flex-col gap-1">
+            <p className="text-xs font-bold text-gray-400 uppercase tracking-wider px-2 mb-1">Sections</p>
+            {chapter.sections.map((sec) => (
+              <button
+                key={sec.id}
+                onClick={() => { setActiveSectionId(sec.id); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                className={`w-full text-left px-3 py-2.5 rounded-xl text-sm transition-colors ${
+                  sec.id === activeSectionId
+                    ? "bg-indigo-50 text-indigo-700 font-semibold"
+                    : "text-gray-600 hover:bg-gray-100"
+                }`}
+              >
+                <span className="text-xs text-gray-400 block">{sec.sectionNum}</span>
+                {sec.title}
+              </button>
+            ))}
+          </nav>
+        </aside>
+
+        {/* ── Main content ── */}
+        <article className="flex-1 min-w-0">
+          {/* Section header */}
+          <div className="mb-8">
+            <p className="text-sm font-semibold text-indigo-400 mb-1">Section {activeSection.sectionNum}</p>
+            <h2 className="text-3xl font-bold text-gray-900">{activeSection.title}</h2>
+            <a href={activeSection.url} target="_blank" rel="noopener noreferrer"
+              className="inline-block mt-2 text-xs text-gray-400 hover:text-indigo-500 transition-colors">
+              View original source ↗
+            </a>
+          </div>
+
+          {/* Learning objectives */}
+          {activeSection.learningObjectives.length > 0 && (
+            <div className="bg-indigo-50 border border-indigo-100 rounded-2xl p-5 mb-8">
+              <p className="text-sm font-bold text-indigo-700 mb-3">🎯 Learning Objectives</p>
+              <ol className="space-y-2">
+                {activeSection.learningObjectives.map((obj, i) => (
+                  <li key={i} className="flex gap-2 text-sm text-indigo-800">
+                    <span className="font-bold text-indigo-400 shrink-0">{i + 1}.</span>
+                    {obj}
+                  </li>
+                ))}
+              </ol>
+            </div>
+          )}
+
+          {/* Main content */}
+          <div className="prose-custom">
+            {renderMarkdown(activeSection.content)}
+          </div>
+
+          {/* Key Terms */}
+          {activeSection.keyTerms.length > 0 && (
+            <div className="mt-10 border-t border-gray-200 pt-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">📚 Key Terms</h3>
+              <div className="grid grid-cols-2 gap-3">
+                {activeSection.keyTerms.map((kt, i) => (
+                  <div key={i} className="bg-white rounded-2xl p-4 border border-gray-100 shadow-sm">
+                    <p className="font-bold text-gray-900 text-sm">{kt.term}</p>
+                    <p className="text-gray-700 text-sm mt-1 leading-relaxed">{kt.definition}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Exercises */}
+          {activeSection.exercises.length > 0 && (
+            <div className="mt-10 border-t border-gray-200 pt-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">✏️ Exercises</h3>
+              <div className="flex flex-col gap-6">
+                {activeSection.exercises.map((ex, i) => (
+                  <div key={i} className="bg-amber-50 border border-amber-100 rounded-2xl p-5">
+                    <p className="font-semibold text-amber-800 text-sm mb-3">Exercise {i + 1}: {ex.instruction}</p>
+                    {ex.items && ex.items.length > 0 && (
+                      <ol className="space-y-2">
+                        {ex.items.map((item, j) => (
+                          <li key={j} className="flex gap-2 text-sm text-amber-900">
+                            <span className="font-bold text-amber-500 shrink-0">{j + 1}.</span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ol>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Key Takeaways */}
+          {activeSection.keyTakeaways.length > 0 && (
+            <div className="mt-10 border-t border-gray-200 pt-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">💡 Key Takeaways</h3>
+              <div className="bg-emerald-50 border border-emerald-100 rounded-2xl p-5">
+                <ul className="space-y-3">
+                  {activeSection.keyTakeaways.map((tk, i) => (
+                    <li key={i} className="flex gap-3 text-sm text-emerald-900">
+                      <span className="text-emerald-500 shrink-0 mt-0.5">✓</span>
+                      {tk}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          )}
+
+          {/* Section nav */}
+          <div className="mt-12 flex justify-between border-t border-gray-200 pt-6">
+            {(() => {
+              const idx = chapter.sections.findIndex((s) => s.id === activeSection.id);
+              const prev = chapter.sections[idx - 1];
+              const next = chapter.sections[idx + 1];
+              return (
+                <>
+                  <div>
+                    {prev && (
+                      <button onClick={() => { setActiveSectionId(prev.id); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                        className="flex items-center gap-2 text-sm text-gray-500 hover:text-indigo-600 transition-colors">
+                        ← <span>{prev.sectionNum} {prev.title}</span>
+                      </button>
+                    )}
+                  </div>
+                  <div>
+                    {next && (
+                      <button onClick={() => { setActiveSectionId(next.id); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                        className="flex items-center gap-2 text-sm text-gray-500 hover:text-indigo-600 transition-colors">
+                        <span>{next.sectionNum} {next.title}</span> →
+                      </button>
+                    )}
+                  </div>
+                </>
+              );
+            })()}
+          </div>
+
+        </article>
+      </div>
+    </main>
+  );
+}
