@@ -1,0 +1,2537 @@
+{
+  "generatedAt": "2026-05-18T08:12:29.617965+00:00",
+  "source": "https://saylordotorg.github.io/text_business-english-for-success/",
+  "license": "Creative Commons (Saylor Foundation)",
+  "stats": {
+    "parsedSections": 61,
+    "chapters": 14,
+    "sectionsWithContent": 61,
+    "totalKeyTerms": 168,
+    "totalExercises": 68
+  },
+  "chapters": [
+    {
+      "id": "ch1",
+      "num": 1,
+      "title": "Writing Basics: What Makes a Good Sentence?",
+      "url": "https://saylordotorg.github.io/text_business-english-for-success/s05-writing-basics-what-makes-a-go.html",
+      "emoji": "✏️",
+      "color": "from-blue-500 to-cyan-400",
+      "sections": [
+        {
+          "id": "s05-01",
+          "filename": "s05-01-sentence-writing.html",
+          "chapterNum": 1,
+          "sectionNum": "1.1",
+          "title": "Sentence Writing",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s05-01-sentence-writing.html",
+          "learningObjectives": [
+            "Identify the components of a basic sentence.",
+            "Identify the four most serious writing errors."
+          ],
+          "content": "Complete sentences require three things: a **subject**, a **verb**, and a **complete idea**.\n\n## Subjects\n\nThe subject tells who or what the sentence is about. Subjects are nouns or pronouns. A **compound subject** has two or more nouns joined by *and*, *or*, or *nor*. A **prepositional phrase** can never be the subject.\n\n## Verbs\n\n- **Action verbs** show action: *She submits the report.*\n- **Linking verbs** connect subject to description: *The memo is clear.*\n- **Helping verbs** work with main verbs: *He has finished the draft.*\n\n## Sentence Patterns\n\n| Pattern | Example |\n|---------|----------|\n| S-V | Sales increased. |\n| S-LV-N | Maria is a director. |\n| S-LV-Adj | The proposal seems solid. |\n| S-V-DO | She sent the invoice. |\n\n## Fragments and Run-ons\n\nA **fragment** is missing a subject or verb: *Waiting for approval.* Fix: *We are waiting for approval.*\n\n**Run-on types:**\n- **Fused sentence** (no punctuation): *The report was late we missed the deadline.*\n- **Comma splice** (only a comma): *The report was late, we missed the deadline.*\n\n**Four fixes:** period | semicolon | comma + FANBOYS (for/and/nor/but/or/yet/so) | dependent word (because/although/since/unless)",
+          "keyTerms": [
+            {
+              "term": "Independent clause",
+              "definition": "Words with subject and verb that stand alone as a complete thought."
+            },
+            {
+              "term": "Fragment",
+              "definition": "Incomplete sentence missing subject or verb."
+            },
+            {
+              "term": "Run-on sentence",
+              "definition": "Two or more independent clauses incorrectly combined."
+            },
+            {
+              "term": "Fused sentence",
+              "definition": "Two complete sentences joined with no punctuation."
+            },
+            {
+              "term": "Comma splice",
+              "definition": "Two complete sentences joined only by a comma."
+            },
+            {
+              "term": "Coordinating conjunction",
+              "definition": "FANBOYS: for, and, nor, but, or, yet, so."
+            },
+            {
+              "term": "Prepositional phrase",
+              "definition": "Begins with a preposition; cannot be the subject."
+            },
+            {
+              "term": "Action verb",
+              "definition": "Verb showing what the subject does."
+            },
+            {
+              "term": "Linking verb",
+              "definition": "Verb connecting subject to noun or adjective (is, seem, appear)."
+            },
+            {
+              "term": "Helping verb",
+              "definition": "Works with main verb to show tense or mood (be, do, have)."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Underline subjects and circle prepositional phrases.",
+              "items": [
+                "The gym closes at nine tonight.",
+                "We went to the store to buy supplies.",
+                "The student with the highest grade won the award."
+              ]
+            },
+            {
+              "instruction": "Underline the verb twice and name its type.",
+              "items": [
+                "The memo sounds urgent.",
+                "They have not responded yet.",
+                "She drafted the proposal in one afternoon."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "A sentence needs subject, verb, and complete thought.",
+            "Prepositional phrases cannot be subjects.",
+            "Fix fragments by adding missing parts.",
+            "Fix run-ons with period, semicolon, FANBOYS, or dependent word."
+          ]
+        },
+        {
+          "id": "s05-02",
+          "filename": "s05-02-subject-verb-agreement.html",
+          "chapterNum": 1,
+          "sectionNum": "1.2",
+          "title": "Subject-Verb Agreement",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s05-02-subject-verb-agreement.html",
+          "learningObjectives": [
+            "Define subject-verb agreement.",
+            "Identify common errors."
+          ],
+          "content": "Subject and verb must **agree in number**.\n\n## Regular Verbs\n\nThird-person singular adds -s: *She writes.* / *They write.*\n\n## Irregular Verbs\n\n| Verb | Singular | Plural |\n|------|----------|--------|\n| be | am/is/are | are |\n| have | have/has | have |\n| do | do/does | do |\n\n## Common Agreement Errors\n\n**AND** = plural: *Maria and David attend the meeting.*\n**OR/NOR** = verb agrees with nearest: *Neither the manager nor the assistants are available.*\n**Indefinite pronouns** (everyone, nobody, each) = singular.\n**Collective nouns** (team, committee) = singular in American English.\n**Here/There sentences**: subject follows verb — *Here are the results.*",
+          "keyTerms": [
+            {
+              "term": "Subject-verb agreement",
+              "definition": "Subject and verb must match in number."
+            },
+            {
+              "term": "Irregular verb",
+              "definition": "Verb with unpredictable forms (be, have, do)."
+            },
+            {
+              "term": "Indefinite pronoun",
+              "definition": "Unspecified person/thing, usually singular (everyone, each, nobody)."
+            },
+            {
+              "term": "Collective noun",
+              "definition": "Names a group treated as one unit — takes singular verb."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Write the correct present-tense verb form.",
+              "items": [
+                "The committee (meet/meets) every Thursday.",
+                "Everyone (is/are) required to submit a report.",
+                "My dog and cat (chases/chase) each other."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Singular subjects take singular verbs; plural take plural.",
+            "Compound subjects with AND take plural verbs.",
+            "Collective nouns take singular verbs in American English."
+          ]
+        },
+        {
+          "id": "s05-03",
+          "filename": "s05-03-verb-tense.html",
+          "chapterNum": 1,
+          "sectionNum": "1.3",
+          "title": "Verb Tense",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s05-03-verb-tense.html",
+          "learningObjectives": [
+            "Use correct regular and irregular verb tenses."
+          ],
+          "content": "Verb tense identifies **when** an action occurs.\n\n## Regular Verbs\n\nAdd -ed/-d for simple past: *walk -> walked, present -> presented*\n\n## Irregular Verbs\n\n| Present | Past |\n|---------|------|\n| be | was/were |\n| have | had |\n| go | went |\n| see | saw |\n| write | wrote |\n| know | knew |\n\n## Consistent Verb Tense\n\nUse the same tense throughout unless a real time shift occurs.\n\n**Inconsistent:** *She opened the file and types the data.*\n**Consistent:** *She opened the file and typed the data.*",
+          "keyTerms": [
+            {
+              "term": "Verb tense",
+              "definition": "Form of verb indicating when action occurs."
+            },
+            {
+              "term": "Regular verb",
+              "definition": "Forms past tense by adding -ed or -d."
+            },
+            {
+              "term": "Irregular verb",
+              "definition": "Unpredictable past form that must be memorized."
+            },
+            {
+              "term": "Consistent verb tense",
+              "definition": "Using the same tense throughout a sentence or paragraph."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Select the correct tense.",
+              "items": [
+                "The Dust Bowl (is/was) devastating in the 1930s.",
+                "Historians (consider/considered) it one of the worst events in US history."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Regular verbs add -ed for past.",
+            "Irregular verb past forms must be memorized.",
+            "Consistent tense is essential for clarity."
+          ]
+        },
+        {
+          "id": "s05-04",
+          "filename": "s05-04-capitalization.html",
+          "chapterNum": 1,
+          "sectionNum": "1.4",
+          "title": "Capitalization",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s05-04-capitalization.html",
+          "learningObjectives": [
+            "Learn the basic rules of capitalization.",
+            "Identify common capitalization errors."
+          ],
+          "content": "## Rules\n\n**Capitalize:**\n- First word of every sentence\n- Proper nouns (Amazon River, Dr. Patel, Smith College, Tuesday, March, Thanksgiving)\n- Nationalities, races, languages, religions (American, Spanish, Catholic, Buddhist)\n- Titles before names (Dr. Smith, President Lincoln)\n- Days, months, holidays\n\n**Do NOT capitalize** common nouns used generally: *river*, *doctor*, *college*.\n\n## ALL CAPS = Shouting\n\nIn digital communication, ALL CAPS implies yelling. Use standard capitalization.\n\n| Incorrect | Correct |\n|-----------|---------|\n| the amazon river | the Amazon River |\n| dr. johnson | Dr. Johnson |\n| she is catholic | She is Catholic |",
+          "keyTerms": [
+            {
+              "term": "Proper noun",
+              "definition": "Name of a specific person, place, or organization — always capitalized."
+            },
+            {
+              "term": "Common noun",
+              "definition": "General word for a class — not capitalized."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Correct capitalization errors.",
+              "items": [
+                "the prince of england enjoys polo.",
+                "my physician, dr. alvarez, makes me comfortable.",
+                "i am taking english, history, and biology."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Capitalize first word, proper nouns, nationalities, titles before names.",
+            "ALL CAPS implies shouting — avoid in professional writing."
+          ]
+        },
+        {
+          "id": "s05-05",
+          "filename": "s05-05-pronouns.html",
+          "chapterNum": 1,
+          "sectionNum": "1.5",
+          "title": "Pronouns",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s05-05-pronouns.html",
+          "learningObjectives": [
+            "Identify pronouns and their antecedents.",
+            "Use pronouns correctly."
+          ],
+          "content": "Pronouns must agree with their **antecedent** in number and person.\n\n**Singular:** *The manager submitted **her** report.*\n**Indefinite pronouns are singular:** everyone, nobody, each, someone\n**Collective nouns are singular:** *The team completed **its** project.*\n\n## Subject vs. Object Pronouns\n\n| Role | Pronouns |\n|------|----------|\n| Subject | I, we, you, he, she, it, they |\n| Object | me, us, you, him, her, it, them |\n\n**Incorrect:** *Me and Harriet went to the meeting.*\n**Correct:** *Harriet and I went to the meeting.*\n\n## Who vs. Whom\n\n*Who* = subject: *Who submitted the report?*\n*Whom* = object: *To whom should I address this?*\nTrick: If 'him' fits, use 'whom'.",
+          "keyTerms": [
+            {
+              "term": "Pronoun",
+              "definition": "Word replacing a noun."
+            },
+            {
+              "term": "Antecedent",
+              "definition": "The noun a pronoun refers to."
+            },
+            {
+              "term": "Pronoun agreement",
+              "definition": "Pronoun must match antecedent in number and person."
+            },
+            {
+              "term": "Subject pronoun",
+              "definition": "I, we, you, he, she, it, they."
+            },
+            {
+              "term": "Object pronoun",
+              "definition": "me, us, you, him, her, it, them."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Correct the pronoun errors.",
+              "items": [
+                "Everyone should submit their timesheet by Friday.",
+                "The award was given to he and I.",
+                "Me and the director presented the findings."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Pronouns must agree with antecedent in number and person.",
+            "Most indefinite pronouns are singular.",
+            "Who = subject; whom = object."
+          ]
+        },
+        {
+          "id": "s05-06",
+          "filename": "s05-06-adjectives-and-adverbs.html",
+          "chapterNum": 1,
+          "sectionNum": "1.6",
+          "title": "Adjectives and Adverbs",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s05-06-adjectives-and-adverbs.html",
+          "learningObjectives": [
+            "Identify adjectives and adverbs.",
+            "Use them correctly."
+          ],
+          "content": "**Adjective** describes a noun or pronoun: *The **detailed** report impressed the client.*\n\n**Adverb** describes a verb, adjective, or adverb (often ends in -ly): *She presented **confidently**.*\n\n## Comparative and Superlative\n\n- Comparative (2 things): -er or *more*\n- Superlative (3+ things): -est or *most*\n\n| Word | Comparative | Superlative |\n|------|-------------|-------------|\n| good/well | better | best |\n| bad/badly | worse | worst |\n\n## Good vs. Well / Bad vs. Badly\n\n*Good* and *bad* are **adjectives**. *Well* and *badly* are **adverbs**.\n\n**Incorrect:** *She did good on the exam.*\n**Correct:** *She did **well** on the exam.*",
+          "keyTerms": [
+            {
+              "term": "Adjective",
+              "definition": "Describes a noun or pronoun."
+            },
+            {
+              "term": "Adverb",
+              "definition": "Describes a verb, adjective, or adverb; often ends in -ly."
+            },
+            {
+              "term": "Comparative",
+              "definition": "Compares two things; add -er or use more."
+            },
+            {
+              "term": "Superlative",
+              "definition": "Compares three or more; add -est or use most."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Write good, well, bad, or badly.",
+              "items": [
+                "She performed ________ under pressure.",
+                "The results looked ________ for investors."
+              ]
+            },
+            {
+              "instruction": "Write the correct comparative or superlative.",
+              "items": [
+                "This proposal is ________ (good) than the last one."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Adjectives describe nouns; adverbs describe verbs/adjectives/adverbs.",
+            "Comparative compares two; superlative compares three or more.",
+            "Good/bad are adjectives; well/badly are adverbs."
+          ]
+        },
+        {
+          "id": "s05-07",
+          "filename": "s05-07-misplaced-and-dangling-modifie.html",
+          "chapterNum": 1,
+          "sectionNum": "1.7",
+          "title": "Misplaced and Dangling Modifiers",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s05-07-misplaced-and-dangling-modifie.html",
+          "learningObjectives": [
+            "Identify and correct misplaced and dangling modifiers."
+          ],
+          "content": "## Misplaced Modifiers\n\nA **misplaced modifier** is too far from the word it describes.\n\n**Incorrect:** *She wore a helmet on her head that was too large.*\n**Correct:** *She wore a helmet that was too large on her head.*\n\nWatch for: *only, almost, just, nearly, barely*\n**Confusing:** *He almost earned fifty dollars.*\n**Clear:** *He earned almost fifty dollars.*\n\n## Dangling Modifiers\n\nA **dangling modifier** describes something not present in the sentence.\n\n**Incorrect:** *Reviewing the budget, the numbers seemed off.*\n**Correct:** *Reviewing the budget, she noticed the numbers seemed off.*\n\nThree-step check: (1) Find the -ing phrase. (2) Underline the first noun after it. (3) Ask: does that noun logically perform the action?",
+          "keyTerms": [
+            {
+              "term": "Modifier",
+              "definition": "Word, phrase, or clause clarifying another element in the sentence."
+            },
+            {
+              "term": "Misplaced modifier",
+              "definition": "Modifier placed too far from the word it is meant to describe."
+            },
+            {
+              "term": "Dangling modifier",
+              "definition": "Modifier that describes something not present in the sentence."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Rewrite to correct the misplaced modifier.",
+              "items": [
+                "The young manager was walking the dog on the phone.",
+                "I heard about the product recall on the evening news."
+              ]
+            },
+            {
+              "instruction": "Rewrite to correct the dangling modifier.",
+              "items": [
+                "Riding the elevator, the lobby appeared below us.",
+                "To qualify for the role, three years of experience is required."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Misplaced modifiers create awkward sentences.",
+            "Place modifiers directly next to the words they describe.",
+            "Dangling modifiers describe something absent — add the missing subject."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "num": 2,
+      "title": "Punctuation",
+      "url": "https://saylordotorg.github.io/text_business-english-for-success/s06-punctuation.html",
+      "emoji": "🔤",
+      "color": "from-violet-500 to-purple-400",
+      "sections": [
+        {
+          "id": "s06-01",
+          "filename": "s06-01-commas.html",
+          "chapterNum": 2,
+          "sectionNum": "2.1",
+          "title": "Commas",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s06-01-commas.html",
+          "learningObjectives": [
+            "Identify the uses of commas.",
+            "Correctly use commas in sentences."
+          ],
+          "content": "A **comma** indicates a pause or separates items.\n\n## Six Uses\n\n1. After introductory word or phrase: *However, the meeting was postponed.*\n2. In a list: *We need paper, ink, and envelopes.*\n3. Coordinating adjectives: *It was a clear, concise memo.*\n4. Before conjunctions in compound sentences: *He submitted the report, but the deadline had passed.*\n5. Around interrupting words: *The CEO, as expected, approved the budget.*\n6. In dates, addresses, and letters: *May 4, 2023 / Dear Ms. Johnson, / Sincerely,*",
+          "keyTerms": [
+            {
+              "term": "Comma",
+              "definition": "Punctuation indicating pause or separating items."
+            },
+            {
+              "term": "Coordinating adjectives",
+              "definition": "Series of adjectives before a noun, each describing it independently."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Add commas to correct these sentences.",
+              "items": [
+                "Without a doubt hard work pays off.",
+                "Monday Tuesday and Wednesday are fully booked.",
+                "He missed the deadline but promised to deliver Friday."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Use commas after introductory words/phrases.",
+            "Commas separate list items and coordinating adjectives.",
+            "Comma before FANBOYS in compound sentence."
+          ]
+        },
+        {
+          "id": "s06-02",
+          "filename": "s06-02-semicolons.html",
+          "chapterNum": 2,
+          "sectionNum": "2.2",
+          "title": "Semicolons",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s06-02-semicolons.html",
+          "learningObjectives": [
+            "Identify and use semicolons correctly."
+          ],
+          "content": "A **semicolon** links two closely related independent clauses.\n\n*The proposal was submitted; the client reviewed it immediately.*\n\n## With Conjunctive Adverbs\n\n| Function | Examples |\n|----------|-----------|\n| Addition | furthermore, moreover |\n| Contrast | however, nevertheless |\n| Cause/effect | therefore, consequently |\n\n*The budget was approved; however, spending limits apply.*\n\n## In Complex Lists\n\nWhen items contain commas: *The conference includes Priya Sharma, CFO; David Lee, CTO; Ana Ruiz, CMO.*",
+          "keyTerms": [
+            {
+              "term": "Semicolon",
+              "definition": "Links two closely related independent clauses."
+            },
+            {
+              "term": "Conjunctive adverb",
+              "definition": "Word showing relationship between two clauses (however, therefore) — used after semicolon."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Join these pairs with a semicolon and conjunctive adverb.",
+              "items": [
+                "The presentation was excellent. The audience remained skeptical.",
+                "We submitted on time. The client approved it immediately."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Semicolons link closely related independent clauses.",
+            "Semicolon + conjunctive adverb + comma to show relationship."
+          ]
+        },
+        {
+          "id": "s06-03",
+          "filename": "s06-03-colons.html",
+          "chapterNum": 2,
+          "sectionNum": "2.3",
+          "title": "Colons",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s06-03-colons.html",
+          "learningObjectives": [
+            "Identify the uses of colons.",
+            "Properly use colons in sentences."
+          ],
+          "content": "A **colon** introduces what follows. The preceding clause must be independent.\n\n## Uses\n\n- **List:** *The team will visit three cities: New York, Chicago, and Los Angeles.*\n- **Quotation:** *The CEO said: 'We must cut costs by 15 percent.'*\n- **Explanation:** *One issue stood out: the expense reports were incomplete.*\n- **Business letter greeting:** *Dear Hiring Manager:*\n\n## Do NOT Use After 'Such As'\n\n**Incorrect:** *We offer services such as: design and printing.*\n**Correct:** *We offer services such as design and printing.*",
+          "keyTerms": [
+            {
+              "term": "Colon",
+              "definition": "Punctuation introducing a list, quotation, example, or explanation."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Add semicolons or colons where needed.",
+              "items": [
+                "Don't give up you never know what tomorrow brings.",
+                "The boss's message was clear Lateness will not be tolerated."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Colon introduces lists, quotations, or explanations.",
+            "Independent clause must precede the colon.",
+            "Do not use colon after 'such as'."
+          ]
+        },
+        {
+          "id": "s06-04",
+          "filename": "s06-04-quotes.html",
+          "chapterNum": 2,
+          "sectionNum": "2.4",
+          "title": "Quotes",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s06-04-quotes.html",
+          "learningObjectives": [
+            "Correctly use quotation marks."
+          ],
+          "content": "**Quotation marks** enclose direct quotations and titles of short works.\n\n**Direct quote:** *Carly said, \"I'm not going back there.\"*\n**Indirect quote (no marks):** *Carly said that she would not go back.*\n\n## Rules\n\n- Commas and periods go **inside** closing quotation mark\n- Single quotation marks for quote within a quote\n- Short work titles (articles, songs, poems) use quotation marks\n- Long work titles (books, films) use italics",
+          "keyTerms": [
+            {
+              "term": "Direct quotation",
+              "definition": "Exact words someone said, enclosed in quotation marks."
+            },
+            {
+              "term": "Indirect quotation",
+              "definition": "Paraphrase of what was said; no quotation marks."
+            },
+            {
+              "term": "Single quotation marks",
+              "definition": "Used for a quotation within a quotation."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Add quotation marks where necessary.",
+              "items": [
+                "Yasmin said, I don't feel like cooking tonight.",
+                "Did you hear her say you were the next Picasso?"
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Direct quotes require quotation marks; indirect quotes do not.",
+            "Commas and periods always go inside closing quotation mark.",
+            "Single quotes for a quote within a quote."
+          ]
+        },
+        {
+          "id": "s06-05",
+          "filename": "s06-05-apostrophes.html",
+          "chapterNum": 2,
+          "sectionNum": "2.5",
+          "title": "Apostrophes",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s06-05-apostrophes.html",
+          "learningObjectives": [
+            "Use apostrophes correctly."
+          ],
+          "content": "Apostrophes signal **possession** or mark **contractions**.\n\n## Possessives\n- Singular: add 's (the manager's report)\n- Plural ending in -s: add ' only (the managers' meeting)\n- Plural NOT ending in -s: add 's (the children's program)\n\n## Common Errors\n- **its** (possessive) vs **it's** (it is)\n- **their** vs **they're** vs **there**\n- Never use apostrophe for simple plurals: *reports* not *report's*",
+          "keyTerms": [
+            {
+              "term": "Apostrophe",
+              "definition": "Punctuation showing possession or forming contractions."
+            },
+            {
+              "term": "Contraction",
+              "definition": "Shortened form using apostrophe to replace omitted letters."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Add apostrophes where needed.",
+              "items": [
+                "The managers report is due Friday.",
+                "Its important to review the clients requirements.",
+                "Dont submit until youre satisfied."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Singular possessive = 's; plural ending in s = s'",
+            "its = possessive; it's = it is.",
+            "Never use apostrophe to form simple plurals."
+          ]
+        },
+        {
+          "id": "s06-06",
+          "filename": "s06-06-parentheses.html",
+          "chapterNum": 2,
+          "sectionNum": "2.6",
+          "title": "Parentheses",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s06-06-parentheses.html",
+          "learningObjectives": [
+            "Use parentheses correctly."
+          ],
+          "content": "**Parentheses** enclose supplementary, nonessential information.\n\n- Supplemental info: *The report (published in March) showed growth.*\n- Abbreviations: *American Psychological Association (APA)*\n- Numbers in formal documents: *twenty (20) business days*\n\nUse sparingly — overuse clutters writing.",
+          "keyTerms": [
+            {
+              "term": "Parentheses",
+              "definition": "Punctuation enclosing supplementary or nonessential information."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Add parentheses where appropriate.",
+              "items": [
+                "The new software see the attached manual must be installed by Friday."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Parentheses enclose nonessential supplementary information.",
+            "Use sparingly to avoid cluttered prose."
+          ]
+        },
+        {
+          "id": "s06-07",
+          "filename": "s06-07-dashes.html",
+          "chapterNum": 2,
+          "sectionNum": "2.7",
+          "title": "Dashes",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s06-07-dashes.html",
+          "learningObjectives": [
+            "Use em dashes and en dashes correctly."
+          ],
+          "content": "## Em Dash (--)\n\nIndicates significant pause — stronger than comma, more informal than colon.\n\n- Parenthetical: *The decision -- unanimous -- surprised everyone.*\n- Introduce list: *Three things drove failure -- price, timing, trust.*\n\n## En Dash (-)\n\nUsed for ranges: pages 10-25, years 2020-2024.",
+          "keyTerms": [
+            {
+              "term": "Em dash",
+              "definition": "Long dash indicating significant pause, emphasis, or parenthetical aside."
+            },
+            {
+              "term": "En dash",
+              "definition": "Medium dash used for numerical ranges."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Insert em dashes or en dashes as appropriate.",
+              "items": [
+                "The report pages 12 28 cover financial projections.",
+                "Three factors drove the loss price, quality, and delivery."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Em dash creates strong pause or emphasis.",
+            "En dash indicates numerical ranges."
+          ]
+        },
+        {
+          "id": "s06-08",
+          "filename": "s06-08-hyphens.html",
+          "chapterNum": 2,
+          "sectionNum": "2.8",
+          "title": "Hyphens",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s06-08-hyphens.html",
+          "learningObjectives": [
+            "Use hyphens correctly."
+          ],
+          "content": "## Compound Adjectives Before a Noun\n\nHyphenate before noun: *a well-written report, an up-to-date spreadsheet*\nDo NOT hyphenate after linking verb: *The report was well written.*\n\n## Compound Numbers\nHyphenate 21-99: *thirty-five employees*\n\n## Self- Compounds\nAlmost always hyphenated: *self-confident, self-employed*",
+          "keyTerms": [
+            {
+              "term": "Hyphen",
+              "definition": "Punctuation (-) connecting compound words or adjectives."
+            },
+            {
+              "term": "Compound adjective",
+              "definition": "Two or more words functioning as single adjective before a noun."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Add or remove hyphens.",
+              "items": [
+                "She is a well known consultant.",
+                "The consultant is well known in her field.",
+                "We hired twenty five new staff."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Hyphenate compound adjectives before nouns; not after linking verbs.",
+            "Hyphenate written numbers 21-99."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "num": 3,
+      "title": "Working with Words: Which Word Is Right?",
+      "url": "https://saylordotorg.github.io/text_business-english-for-success/s07-working-with-words-which-word-.html",
+      "emoji": "📖",
+      "color": "from-sky-500 to-blue-400",
+      "sections": [
+        {
+          "id": "s07-01",
+          "filename": "s07-01-commonly-confused-words.html",
+          "chapterNum": 3,
+          "sectionNum": "3.1",
+          "title": "Commonly Confused Words",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s07-01-commonly-confused-words.html",
+          "learningObjectives": [
+            "Identify and correctly use commonly confused words."
+          ],
+          "content": "Many words sound alike but have completely different meanings.\n\n| Word | Meaning |\n|------|---------|\n| accept | to receive |\n| except | to exclude |\n| affect | verb: to influence |\n| effect | noun: result |\n| their | possessive |\n| there | place/introduces |\n| they're | they are |\n| its | possessive |\n| it's | it is |\n| your | possessive |\n| you're | you are |\n| then | time sequence |\n| than | comparison |\n| who | subject |\n| whom | object |",
+          "keyTerms": [
+            {
+              "term": "Homophones",
+              "definition": "Words that sound the same but have different spellings and meanings."
+            },
+            {
+              "term": "Affect vs. effect",
+              "definition": "Affect is usually a verb (to influence); effect is usually a noun (result)."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Select the correct word.",
+              "items": [
+                "The budget cuts will (affect/effect) every department.",
+                "(Their/There/They're) proposal was the strongest.",
+                "Please send to the person (who/whom) signed the contract."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Affect = verb; effect = noun.",
+            "Their/there/they're and its/it's are the most common errors.",
+            "Who = subject; whom = object."
+          ]
+        },
+        {
+          "id": "s07-02",
+          "filename": "s07-02-spelling.html",
+          "chapterNum": 3,
+          "sectionNum": "3.2",
+          "title": "Spelling",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s07-02-spelling.html",
+          "learningObjectives": [
+            "Apply basic spelling rules."
+          ],
+          "content": "## Key Rules\n\n**i before e except after c:** *believe, receive, achieve, neighbor, weigh*\n\n**Double final consonant** for one-syllable CVC before -ed/-ing: *run -> running, stop -> stopped*\n\n**Silent e:** drop before vowel suffix, keep before consonant suffix: *write -> writing, safe -> safely*\n\n## Common Business Misspellings\naccomm*o*date, comm*i*ttee, ind*e*pendent, nec*e*ssary, rec*ei*ve, sep*a*rate",
+          "keyTerms": [
+            {
+              "term": "Spelling rules",
+              "definition": "Patterns governing correct letter order in words."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Correct the misspelled words.",
+              "items": [
+                "The commitee will reconvene on Febuary 14th.",
+                "It is neccesary to recieve approval before proceeding."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "i before e except after c has exceptions.",
+            "Double final consonant in one-syllable CVC words before vowel suffixes.",
+            "Spell-check misses homophone errors."
+          ]
+        },
+        {
+          "id": "s07-03",
+          "filename": "s07-03-word-choice.html",
+          "chapterNum": 3,
+          "sectionNum": "3.3",
+          "title": "Word Choice",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s07-03-word-choice.html",
+          "learningObjectives": [
+            "Use a dictionary and thesaurus effectively.",
+            "Apply proper connotations.",
+            "Avoid cliches and vague language."
+          ],
+          "content": "## Denotation vs. Connotation\n\n**Denotation** = literal dictionary definition.\n**Connotation** = emotional or cultural meaning.\n\n| Word | Connotation |\n|------|-------------|\n| cheap | negative (low quality) |\n| economical | neutral/positive |\n| scrawny | negative (weakness) |\n| lean | neutral/positive |\n\n## Avoiding Cliches\n\n*think outside the box, low-hanging fruit, move the needle, circle back* -- replace with specific language.\n\n**Cliched:** *We need to move the needle on satisfaction.*\n**Specific:** *We need to increase satisfaction scores by 10 points this quarter.*",
+          "keyTerms": [
+            {
+              "term": "Denotation",
+              "definition": "The literal dictionary definition of a word."
+            },
+            {
+              "term": "Connotation",
+              "definition": "The emotional or cultural meaning attached to a word."
+            },
+            {
+              "term": "Cliche",
+              "definition": "Overused expression that has lost impact and originality."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Replace the cliches with specific language.",
+              "items": [
+                "We need to think outside the box on this.",
+                "Let's touch base before end of day."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Denotation is literal meaning; connotation is emotional meaning.",
+            "Replace cliches with specific, concrete language."
+          ]
+        },
+        {
+          "id": "s07-04",
+          "filename": "s07-04-prefixes-and-suffixes.html",
+          "chapterNum": 3,
+          "sectionNum": "3.4",
+          "title": "Prefixes and Suffixes",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s07-04-prefixes-and-suffixes.html",
+          "learningObjectives": [
+            "Use knowledge of affixes to expand vocabulary."
+          ],
+          "content": "## Prefixes\n\n| Prefix | Meaning | Example |\n|--------|---------|----------|\n| un- | not | unreliable |\n| re- | again | renegotiate |\n| pre- | before | prerequisite |\n| mis- | wrong | misunderstand |\n| dis- | not | disagree |\n| co- | together | coworker |\n\n## Suffixes\n\n| Suffix | Function | Example |\n|--------|----------|----------|\n| -tion | noun | negotiation |\n| -ment | noun | agreement |\n| -ly | adverb | professionally |\n| -able | capable of | negotiable |",
+          "keyTerms": [
+            {
+              "term": "Prefix",
+              "definition": "Word element added to beginning of root word to change meaning."
+            },
+            {
+              "term": "Suffix",
+              "definition": "Word element added to end to change grammatical function."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Identify the prefix or suffix and explain how it changes the meaning.",
+              "items": [
+                "disagree",
+                "renegotiate",
+                "management",
+                "finalize"
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Prefixes change meaning; suffixes change grammatical function."
+          ]
+        },
+        {
+          "id": "s07-05",
+          "filename": "s07-05-synonyms-and-antonyms.html",
+          "chapterNum": 3,
+          "sectionNum": "3.5",
+          "title": "Synonyms and Antonyms",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s07-05-synonyms-and-antonyms.html",
+          "learningObjectives": [
+            "Identify and use synonyms and antonyms."
+          ],
+          "content": "**Synonym** = same/similar meaning: *begin: start, commence, initiate*\n**Antonym** = opposite meaning: *profit vs. loss, approve vs. reject*\n\nAlways verify connotation before substituting a synonym. Longer synonyms are not inherently better: *use* not *utilize*.",
+          "keyTerms": [
+            {
+              "term": "Synonym",
+              "definition": "Word with same or similar meaning."
+            },
+            {
+              "term": "Antonym",
+              "definition": "Word with opposite meaning."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Replace the underlined word with a more precise synonym.",
+              "items": [
+                "The report was *good* and covered the key points.",
+                "We need to *fix* the errors before submitting."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Synonyms add variety; antonyms clarify contrast.",
+            "Always verify connotation before substituting."
+          ]
+        },
+        {
+          "id": "s07-06",
+          "filename": "s07-06-using-context-clues.html",
+          "chapterNum": 3,
+          "sectionNum": "3.6",
+          "title": "Using Context Clues",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s07-06-using-context-clues.html",
+          "learningObjectives": [
+            "Use context clues to determine word meaning."
+          ],
+          "content": "## Four Types\n\n1. **Definition:** Word defined immediately: *The CFO, or Chief Financial Officer, oversees finances.*\n2. **Restatement:** Simplified version nearby: *The plan was feasible -- workable and achievable.*\n3. **Contrast:** Opposite meaning via *but, however, although*: *While the first version was verbose, the revision was concise.*\n4. **Inference:** Meaning implied by overall context.",
+          "keyTerms": [
+            {
+              "term": "Context clues",
+              "definition": "Surrounding text helping reveal meaning of unfamiliar words."
+            },
+            {
+              "term": "Contrast clue",
+              "definition": "Opposite meaning signaled by but, however, unlike."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Use context clues to determine the meaning of the underlined word.",
+              "items": [
+                "The contract was *null and void* -- it had no legal force and could not be enforced.",
+                "The CEO was *candid*; unlike her usual careful phrasing, she spoke with complete honesty."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Four context clue types: definition, restatement, contrast, inference.",
+            "Context clues speed up reading of technical documents."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "num": 4,
+      "title": "Help for English Language Learners",
+      "url": "https://saylordotorg.github.io/text_business-english-for-success/s08-help-for-english-language-lear.html",
+      "emoji": "🌍",
+      "color": "from-teal-500 to-emerald-400",
+      "sections": [
+        {
+          "id": "s08-01",
+          "filename": "s08-01-word-order.html",
+          "chapterNum": 4,
+          "sectionNum": "4.1",
+          "title": "Word Order",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s08-01-word-order.html",
+          "learningObjectives": [
+            "Understand standard English word order."
+          ],
+          "content": "English follows **Subject-Verb-Object (SVO)** order.\n\nAdjectives precede nouns. Multiple adjectives follow this order: Opinion > Size > Age > Shape > Color > Origin > Material > Purpose + Noun.\n\nAdverbs of frequency (*always, usually, often*) go before main verb, after be: *She always submits reports early.*",
+          "keyTerms": [
+            {
+              "term": "SVO",
+              "definition": "Subject-Verb-Object -- standard English sentence order."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Reorder the scrambled words into correct English sentences.",
+              "items": [
+                "report / the / submitted / manager / yesterday / the"
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "English SVO order is mandatory.",
+            "Multiple adjectives follow a fixed order."
+          ]
+        },
+        {
+          "id": "s08-02",
+          "filename": "s08-02-negative-statements.html",
+          "chapterNum": 4,
+          "sectionNum": "4.2",
+          "title": "Negative Statements",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s08-02-negative-statements.html",
+          "learningObjectives": [
+            "Form negative statements correctly.",
+            "Avoid double negatives."
+          ],
+          "content": "## With Auxiliary Verbs\n*She is not available. / They have not submitted.*\n\n## Without Auxiliary\nUse do/does/did + not: *She does not agree. / They did not attend.*\n\n## Double Negatives -- Avoid\n**Incorrect:** *We don't have no budget.*\n**Correct:** *We don't have any budget.* OR *We have no budget.*",
+          "keyTerms": [
+            {
+              "term": "Double negative",
+              "definition": "Two negative words in one clause -- incorrect in standard English."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Correct the double negatives.",
+              "items": [
+                "We don't have no alternative.",
+                "He didn't say nothing about the changes."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Negatives use not after auxiliary, or do/does/did + not.",
+            "Double negatives are nonstandard -- avoid in formal writing."
+          ]
+        },
+        {
+          "id": "s08-03",
+          "filename": "s08-03-count-and-noncount-nouns-and-a.html",
+          "chapterNum": 4,
+          "sectionNum": "4.3",
+          "title": "Count and Noncount Nouns and Articles",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s08-03-count-and-noncount-nouns-and-a.html",
+          "learningObjectives": [
+            "Distinguish count and noncount nouns.",
+            "Use articles correctly."
+          ],
+          "content": "## Count Nouns\nCan be counted; have singular and plural: *one report, two reports*\n\n## Noncount Nouns\nNo plural form: *information, advice, feedback, equipment, software*\n\n**Incorrect:** *She gave me three feedbacks.*\n**Correct:** *She gave me three pieces of feedback.*\n\n## Articles\n\n| Article | Use |\n|---------|-----|\n| a | First mention, consonant sound |\n| an | First mention, vowel sound |\n| the | Specific or previously mentioned |\n| (none) | General plural or noncount |",
+          "keyTerms": [
+            {
+              "term": "Count noun",
+              "definition": "Can be counted; has singular and plural forms."
+            },
+            {
+              "term": "Noncount noun",
+              "definition": "Cannot be counted; has no plural form."
+            },
+            {
+              "term": "Definite article",
+              "definition": "'the' -- used before specific nouns."
+            },
+            {
+              "term": "Indefinite article",
+              "definition": "'a' or 'an' -- used before nonspecific singular count nouns."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Add the correct article (a, an, the, or nothing).",
+              "items": [
+                "She submitted ___ report yesterday. ___ report was approved.",
+                "He has ___ MBA from Harvard."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Count nouns have plurals; noncount nouns do not.",
+            "A/an for first-mention; the for specific nouns."
+          ]
+        },
+        {
+          "id": "s08-06",
+          "filename": "s08-06-modal-auxiliaries.html",
+          "chapterNum": 4,
+          "sectionNum": "4.6",
+          "title": "Modal Auxiliaries",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s08-06-modal-auxiliaries.html",
+          "learningObjectives": [
+            "Use modal verbs correctly for ability, permission, and obligation."
+          ],
+          "content": "Modal verbs: *can, could, may, might, shall, should, will, would, must, ought to*\n\nModals never add -s/-ed. Always followed by **base form**.\n\n| Meaning | Modal | Example |\n|---------|-------|---------|\n| Ability | can | I can finalize this today. |\n| Formal permission | may | May I reschedule? |\n| Possibility | might | The client might request changes. |\n| Strong obligation | must | You must sign before proceeding. |\n| Advice | should | You should review the contract. |\n\n**must not** = prohibition; **don't have to** = not necessary",
+          "keyTerms": [
+            {
+              "term": "Modal auxiliary",
+              "definition": "Verb expressing ability/permission/possibility/obligation."
+            },
+            {
+              "term": "Base form",
+              "definition": "Infinitive without 'to' -- always used after a modal."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Complete with the correct modal verb.",
+              "items": [
+                "___ I see the draft before it is submitted? (formal permission)",
+                "You ___ back up your data before the update. (strong obligation)"
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Modals never change form; always precede base verb.",
+            "must not = prohibition; don't have to = not necessary."
+          ]
+        },
+        {
+          "id": "s08-08",
+          "filename": "s08-08-slang-and-idioms.html",
+          "chapterNum": 4,
+          "sectionNum": "4.8",
+          "title": "Slang and Idioms",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s08-08-slang-and-idioms.html",
+          "learningObjectives": [
+            "Recognize slang and idioms.",
+            "Avoid them in formal writing."
+          ],
+          "content": "## Slang\n\nInformal language -- avoid in professional writing.\n\n| Slang | Professional |\n|-------|-------------|\n| awesome | excellent |\n| ASAP | as soon as possible |\n| totally | completely |\n\n## Idioms\n\nExpressions whose meaning differs from literal words.\n\n| Idiom | Meaning |\n|-------|---------|\n| a piece of cake | very easy |\n| on pins and needles | very nervous |\n| the sky is the limit | possibilities are endless |\n| pulling your leg | making a joke |",
+          "keyTerms": [
+            {
+              "term": "Slang",
+              "definition": "Informal nonstandard language -- avoid in professional writing."
+            },
+            {
+              "term": "Idiom",
+              "definition": "Expression whose meaning differs from the literal words."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Rewrite this email replacing all slang with professional language.",
+              "items": [
+                "Hey team! Our Q3 numbers are totally awesome. We killed it this quarter. Can you guys touch base ASAP about next steps?"
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Slang creates unprofessional impression.",
+            "Idioms confuse non-native speakers.",
+            "Use context clues to decode unfamiliar idioms."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "num": 5,
+      "title": "Writing Paragraphs: Separating Ideas and Shaping Content",
+      "url": "https://saylordotorg.github.io/text_business-english-for-success/s09-writing-paragraphs-separating-.html",
+      "emoji": "📝",
+      "color": "from-lime-500 to-green-400",
+      "sections": [
+        {
+          "id": "s09-01",
+          "filename": "s09-01-purpose-audience-tone-and-cont.html",
+          "chapterNum": 5,
+          "sectionNum": "5.1",
+          "title": "Purpose, Audience, Tone, and Content",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s09-01-purpose-audience-tone-and-cont.html",
+          "learningObjectives": [
+            "Identify the four common academic purposes.",
+            "Identify audience, tone, and content."
+          ],
+          "content": "Three elements shape every paragraph: **purpose**, **audience**, and **tone**.\n\n## Four Academic Purposes\n\n- **Summary** -- condenses text to essential points\n- **Analysis** -- separates into parts and examines relationships\n- **Synthesis** -- combines multiple sources to create new understanding\n- **Evaluation** -- judges value; presents opinion with evidence\n\n## Audience Considerations\n\nDemographics, education level, prior knowledge, expectations.\n\n## Tone\n\nConveyed through word choice, sentence structure, and formality level.",
+          "keyTerms": [
+            {
+              "term": "Purpose",
+              "definition": "Reason writer creates document -- to summarize, analyze, synthesize, or evaluate."
+            },
+            {
+              "term": "Tone",
+              "definition": "Writer's attitude toward subject and audience."
+            },
+            {
+              "term": "Summary",
+              "definition": "Condenses text to essential points."
+            },
+            {
+              "term": "Analysis",
+              "definition": "Separates material into parts and examines relationships."
+            },
+            {
+              "term": "Synthesis",
+              "definition": "Combines multiple sources to create new understanding."
+            },
+            {
+              "term": "Evaluation",
+              "definition": "Judges value and quality; presents opinion with evidence."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Identify the purpose of each paragraph.",
+              "items": [
+                "This film runs twenty minutes too long and repeats emotional beats.",
+                "The report covers quarterly revenue, cost structure, and market share."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Four academic purposes: summarize, analyze, synthesize, evaluate.",
+            "Know audience demographics, education, prior knowledge, expectations."
+          ]
+        },
+        {
+          "id": "s09-02",
+          "filename": "s09-02-effective-means-for-writing-a-.html",
+          "chapterNum": 5,
+          "sectionNum": "5.2",
+          "title": "Effective Means for Writing a Paragraph",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s09-02-effective-means-for-writing-a-.html",
+          "learningObjectives": [
+            "Identify characteristics of a good topic sentence.",
+            "Identify the three parts of a developed paragraph."
+          ],
+          "content": "A strong paragraph has three parts: **topic sentence**, **body**, and **concluding sentence**.\n\n## Topic Sentence\n\nCombines **main idea** with **controlling idea** (your specific stance).\n\n**Weak:** *This paper is about rising tuition.*\n**Strong:** *Rising tuition is pricing qualified students out of higher education.*\n\nFive characteristics: accurate, main+controlling idea, clear, no supporting details, engaging.\n\n## Transitions\n\n| Function | Examples |\n|----------|-----------|\n| Addition | furthermore, moreover |\n| Contrast | however, nevertheless |\n| Cause/effect | therefore, consequently |\n| Summary | in conclusion, in summary |",
+          "keyTerms": [
+            {
+              "term": "Topic sentence",
+              "definition": "Sentence controlling the main point of a paragraph."
+            },
+            {
+              "term": "Controlling idea",
+              "definition": "Writer's specific stance within the topic sentence."
+            },
+            {
+              "term": "Supporting sentences",
+              "definition": "Develop, explain, or prove the topic sentence."
+            },
+            {
+              "term": "Transition",
+              "definition": "Connecting word showing logical relationships between ideas."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Choose the more effective topic sentence.",
+              "items": [
+                "a) I will discuss the effects of poor communication. b) Poor internal communication costs companies millions in lost productivity annually."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Topic sentence = main idea + controlling idea.",
+            "Concluding sentence restates without introducing new ideas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "num": 6,
+      "title": "Refining Your Writing",
+      "url": "https://saylordotorg.github.io/text_business-english-for-success/s10-refining-your-writing-how-do-i.html",
+      "emoji": "🔧",
+      "color": "from-amber-500 to-yellow-400",
+      "sections": [
+        {
+          "id": "s10-01",
+          "filename": "s10-01-sentence-variety.html",
+          "chapterNum": 6,
+          "sectionNum": "6.1",
+          "title": "Sentence Variety",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s10-01-sentence-variety.html",
+          "learningObjectives": [
+            "Identify ways to vary sentence structure."
+          ],
+          "content": "## Techniques\n\n- **Start with adverb:** *Confidently, she presented the findings.*\n- **Start with prepositional phrase:** *During negotiations, all NDAs must be signed.*\n- **Invert subject and verb:** *Attached is the revised proposal.*\n- **-ing modifier:** *Reviewing the budget, the CFO found three discrepancies.*\n- **Relative clause:** *The analyst, who joined last quarter, produced the best model.*\n- **Appositive:** *Sarah Chen, our lead designer, presented the identity system.*",
+          "keyTerms": [
+            {
+              "term": "Sentence variety",
+              "definition": "Using different lengths, patterns, and structures to improve readability."
+            },
+            {
+              "term": "Relative clause",
+              "definition": "Clause beginning with who/which/that describing a noun."
+            },
+            {
+              "term": "Appositive",
+              "definition": "Noun phrase placed next to another noun to rename or describe it."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Combine each pair using the technique indicated.",
+              "items": [
+                "(appositive) Mariam Tahir is our CFO. She presented the annual budget.",
+                "(-ing modifier) He reviewed the proposal. He found several inconsistencies."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Varied sentence structure prevents monotony.",
+            "Combine sentences using modifiers, relative clauses, or appositives."
+          ]
+        },
+        {
+          "id": "s10-02",
+          "filename": "s10-02-coordination-and-subordination.html",
+          "chapterNum": 6,
+          "sectionNum": "6.2",
+          "title": "Coordination and Subordination",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s10-02-coordination-and-subordination.html",
+          "learningObjectives": [
+            "Combine sentences using coordination and subordination."
+          ],
+          "content": "## Coordination\n\nJoins two equal independent clauses using FANBOYS or conjunctive adverbs.\n\n*The report was complete, but the presentation needed revision.*\n\n**Conjunctive adverbs with semicolons:** *The project is behind; however, the quality is excellent.*\n\n## Subordination\n\nJoins unequal clauses, emphasizing one over the other.\n\n*Although the report was late, the data was accurate.*\n\nCommon subordinating conjunctions: *although, because, since, unless, if, when, while*\n\n**Punctuation:** Comma after dependent clause when it comes first.",
+          "keyTerms": [
+            {
+              "term": "Coordination",
+              "definition": "Joining two equal independent clauses using FANBOYS or conjunctive adverbs."
+            },
+            {
+              "term": "Subordination",
+              "definition": "Joining a dependent clause to a main clause showing unequal importance."
+            },
+            {
+              "term": "Coordinating conjunction",
+              "definition": "FANBOYS: for, and, nor, but, or, yet, so."
+            },
+            {
+              "term": "Subordinating conjunction",
+              "definition": "Joins dependent clause to main clause (although, because, since, unless)."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Join using a coordinating conjunction or conjunctive adverb.",
+              "items": [
+                "The client approved the concept. Production can begin immediately."
+              ]
+            },
+            {
+              "instruction": "Join using a subordinating conjunction.",
+              "items": [
+                "The merger failed. The regulatory approval was denied."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Coordination gives equal weight; subordination emphasizes one clause.",
+            "FANBOYS preceded by comma; conjunctive adverbs preceded by semicolon."
+          ]
+        },
+        {
+          "id": "s10-03",
+          "filename": "s10-03-parallelism.html",
+          "chapterNum": 6,
+          "sectionNum": "6.3",
+          "title": "Parallelism",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s10-03-parallelism.html",
+          "learningObjectives": [
+            "Identify and create parallel structures."
+          ],
+          "content": "**Parallelism** uses the same grammatical structure for related elements.\n\n**Faulty:** *The manager is responsible for hiring staff, to train employees, and budget oversight.*\n**Parallel:** *The manager is responsible for hiring staff, training employees, and overseeing the budget.*\n\n## With Correlative Conjunctions\n\nBoth parts of *either...or, neither...nor, not only...but also* must match:\n**Faulty:** *We can either reduce costs or increasing revenue.*\n**Parallel:** *We can either reduce costs or increase revenue.*",
+          "keyTerms": [
+            {
+              "term": "Parallelism",
+              "definition": "Using the same grammatical structure for related elements."
+            },
+            {
+              "term": "Faulty parallelism",
+              "definition": "Inconsistent grammatical structures in a list or paired construction."
+            },
+            {
+              "term": "Correlative conjunctions",
+              "definition": "Paired conjunctions (either...or, neither...nor) requiring parallel structures."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Correct the faulty parallelism.",
+              "items": [
+                "The new system will improve accuracy, reduce costs, and the team will work faster.",
+                "We can either postpone the launch or we could reduce the feature set."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Items in lists and paired clauses must use matching grammatical forms."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch7",
+      "num": 7,
+      "title": "The Writing Process: How Do I Begin?",
+      "url": "https://saylordotorg.github.io/text_business-english-for-success/s11-the-writing-process-how-do-i-b.html",
+      "emoji": "⚙️",
+      "color": "from-orange-500 to-amber-400",
+      "sections": [
+        {
+          "id": "s11-01",
+          "filename": "s11-01-apply-prewriting-models.html",
+          "chapterNum": 7,
+          "sectionNum": "7.1",
+          "title": "Apply Prewriting Models",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s11-01-apply-prewriting-models.html",
+          "learningObjectives": [
+            "Use prewriting strategies to choose and narrow a topic."
+          ],
+          "content": "Writing is a **process**: Prewriting > Outlining > Drafting > Revising > Editing.\n\n## Six Prewriting Strategies\n\n1. Using experience and observations\n2. Reading\n3. **Freewriting** -- write continuously for 3-5 minutes without stopping\n4. **Asking 5WH questions** -- Who? What? Where? When? Why? How?\n5. **Brainstorming** -- list every idea without evaluation\n6. **Idea mapping** -- circles connected by lines; visual approach",
+          "keyTerms": [
+            {
+              "term": "Prewriting",
+              "definition": "Stage transferring abstract thoughts into concrete ideas before drafting."
+            },
+            {
+              "term": "Freewriting",
+              "definition": "Writing continuously for set time without stopping or editing."
+            },
+            {
+              "term": "Brainstorming",
+              "definition": "Rapidly listing all ideas without evaluation."
+            },
+            {
+              "term": "5WH questions",
+              "definition": "Who, What, Where, When, Why, How -- used to explore a topic."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Choose a business topic and complete a 5-minute freewrite. Then identify three potential essay angles.",
+              "items": []
+            }
+          ],
+          "keyTakeaways": [
+            "Writing is a process: prewrite, outline, draft, revise, edit.",
+            "Narrow from broad to specific topic before outlining."
+          ]
+        },
+        {
+          "id": "s11-02",
+          "filename": "s11-02-outlining.html",
+          "chapterNum": 7,
+          "sectionNum": "7.2",
+          "title": "Outlining",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s11-02-outlining.html",
+          "learningObjectives": [
+            "Construct a topic outline and a sentence outline."
+          ],
+          "content": "An outline is the skeleton of your document.\n\n## Organization Methods\n\n| Method | When to Use |\n|--------|-------------|\n| Chronological | Narratives, processes, histories |\n| Spatial | Descriptions of places or objects |\n| Order of Importance | Persuasive writing, rankings |\n\n## Formal Outline Structure\n\n- Roman numerals (I, II, III) = main points\n- Capital letters (A, B, C) = supporting details\n- Arabic numerals (1, 2, 3) = sub-details\n\nEvery level must have at least two entries.",
+          "keyTerms": [
+            {
+              "term": "Outline",
+              "definition": "Structured plan organizing main points before drafting."
+            },
+            {
+              "term": "Thesis statement",
+              "definition": "One sentence presenting the essay's controlling idea."
+            },
+            {
+              "term": "Working thesis",
+              "definition": "Preliminary thesis guiding the outline; refined as writing progresses."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Write a working thesis for each topic.",
+              "items": [
+                "The impact of remote work on team communication",
+                "Why business emails are often misunderstood"
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Choose organization based on purpose.",
+            "Every outline level must have at least two entries."
+          ]
+        },
+        {
+          "id": "s11-03",
+          "filename": "s11-03-drafting.html",
+          "chapterNum": 7,
+          "sectionNum": "7.3",
+          "title": "Drafting",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s11-03-drafting.html",
+          "learningObjectives": [
+            "Identify drafting strategies.",
+            "Write an effective first draft."
+          ],
+          "content": "A first draft is **complete but unpolished**.\n\n## Strategies\n\n- Start with the section you know best\n- Don't edit while drafting\n- Keep purpose and audience visible\n\n## Elements of a First Draft\n\n1. Introduction -- hook + context + thesis\n2. Body paragraphs -- topic sentence, supporting sentences, concluding sentence\n3. Conclusion -- restate thesis, synthesize, provide closure\n4. Title -- drafted last",
+          "keyTerms": [
+            {
+              "term": "Draft",
+              "definition": "Complete but unpolished version -- not the final product."
+            },
+            {
+              "term": "Introduction",
+              "definition": "Opening with hook, context, and thesis statement."
+            },
+            {
+              "term": "Conclusion",
+              "definition": "Closing that restates thesis and provides closure without new arguments."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Write an opening paragraph (hook + context + thesis) for a memo proposing a new remote work policy.",
+              "items": []
+            }
+          ],
+          "keyTakeaways": [
+            "First drafts are complete but unpolished -- don't edit while drafting.",
+            "Business documents benefit from front-loaded topic sentences."
+          ]
+        },
+        {
+          "id": "s11-04",
+          "filename": "s11-04-revising-and-editing.html",
+          "chapterNum": 7,
+          "sectionNum": "7.4",
+          "title": "Revising and Editing",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s11-04-revising-and-editing.html",
+          "learningObjectives": [
+            "Distinguish revising from editing.",
+            "Apply the ARMS revision strategy."
+          ],
+          "content": "**Revising** = rethinking content and structure (do first).\n**Editing** = correcting grammar and punctuation (do second).\n\n## ARMS Revision Strategy\n\n- **A**dd -- missing information, evidence, transitions\n- **R**emove -- redundant or off-topic content\n- **M**ove -- restructure for better logic\n- **S**ubstitute -- weak words, vague claims\n\nReading your draft **aloud** catches awkward phrasing that the eye skips over.",
+          "keyTerms": [
+            {
+              "term": "Revising",
+              "definition": "Making substantive changes to content, structure, and argument."
+            },
+            {
+              "term": "Editing",
+              "definition": "Correcting surface errors in grammar, spelling, and punctuation."
+            },
+            {
+              "term": "ARMS strategy",
+              "definition": "Add, Remove, Move, Substitute -- systematic approach to revision."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Apply the ARMS strategy to a paragraph. Identify one change in each category.",
+              "items": []
+            }
+          ],
+          "keyTakeaways": [
+            "Revise for content and structure before editing for surface errors.",
+            "ARMS = Add, Remove, Move, Substitute.",
+            "Read aloud to catch problems invisible to the eye."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch8",
+      "num": 8,
+      "title": "Writing Essays: From Start to Finish",
+      "url": "https://saylordotorg.github.io/text_business-english-for-success/s12-writing-essays-from-start-to-f.html",
+      "emoji": "📄",
+      "color": "from-rose-500 to-red-400",
+      "sections": [
+        {
+          "id": "s12-01",
+          "filename": "s12-01-developing-a-strong-clear-thes.html",
+          "chapterNum": 8,
+          "sectionNum": "8.1",
+          "title": "Developing a Strong, Clear Thesis Statement",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s12-01-developing-a-strong-clear-thes.html",
+          "learningObjectives": [
+            "Develop an effective thesis statement."
+          ],
+          "content": "A **thesis statement** is specific, arguable, and supportable.\n\n**Weak:** *Technology affects how we communicate.*\n**Strong:** *The rise of asynchronous messaging tools has reduced spontaneous collaboration, increasing productivity but decreasing team cohesion.*\n\n## Common Errors\n\n- Too obvious: unargued facts\n- Announcement: 'In this essay, I will explain...'\n- Too broad: can't be covered in the space available\n\nThesis goes at the **end of the introduction**.",
+          "keyTerms": [
+            {
+              "term": "Thesis statement",
+              "definition": "Specific, arguable sentence presenting the essay's controlling idea."
+            },
+            {
+              "term": "Working thesis",
+              "definition": "Preliminary thesis guiding drafting; refined as writing progresses."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Evaluate as weak or strong. Improve the weak ones.",
+              "items": [
+                "Social media has changed communication.",
+                "Open-plan offices reduce deep work by exposing employees to constant ambient noise and visual interruptions.",
+                "This essay will discuss problems with open-plan offices."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Thesis must be specific, arguable, and supportable.",
+            "Avoid announcements and overly broad claims."
+          ]
+        },
+        {
+          "id": "s12-02",
+          "filename": "s12-02-writing-body-paragraphs.html",
+          "chapterNum": 8,
+          "sectionNum": "8.2",
+          "title": "Writing Body Paragraphs",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s12-02-writing-body-paragraphs.html",
+          "learningObjectives": [
+            "Structure effective body paragraphs using PIE."
+          ],
+          "content": "Each body paragraph develops one main point using **PIE**:\n\n- **P -- Point:** Topic sentence stating the main argument\n- **I -- Illustration:** Specific evidence (fact, statistic, quote, example)\n- **E -- Explanation:** Why the evidence supports your point\n\n**Example:**\n*P: Remote workers report higher job satisfaction.*\n*I: A Stanford study found remote employees were 13% more productive.*\n*E: This suggests autonomy drives both output and retention.*",
+          "keyTerms": [
+            {
+              "term": "PIE structure",
+              "definition": "Point (topic sentence), Illustration (evidence), Explanation (analysis)."
+            },
+            {
+              "term": "Analysis",
+              "definition": "Explanation of why evidence supports the argument -- the E in PIE."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Write a PIE paragraph on: the value of plain language in business.",
+              "items": []
+            }
+          ],
+          "keyTakeaways": [
+            "PIE: Point (claim), Illustration (evidence), Explanation (analysis).",
+            "Analysis is the most important and most often missing element."
+          ]
+        },
+        {
+          "id": "s12-03",
+          "filename": "s12-03-organizing-your-writing.html",
+          "chapterNum": 8,
+          "sectionNum": "8.3",
+          "title": "Organizing Your Writing",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s12-03-organizing-your-writing.html",
+          "learningObjectives": [
+            "Select appropriate organizational patterns."
+          ],
+          "content": "## Three Main Patterns\n\n- **Chronological** -- by time; for narratives, histories, processes\n- **Spatial** -- by physical location; for descriptions\n- **Order of Importance** -- by significance; for persuasive writing\n\nLonger documents often use different patterns in different sections.",
+          "keyTerms": [
+            {
+              "term": "Chronological order",
+              "definition": "Organizing ideas by time sequence."
+            },
+            {
+              "term": "Spatial order",
+              "definition": "Organizing ideas by physical arrangement."
+            },
+            {
+              "term": "Order of importance",
+              "definition": "Organizing ideas from most to least significant."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Which pattern would you choose and why?",
+              "items": [
+                "A business case for adopting new project management software.",
+                "Instructions for submitting a reimbursement request."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Choose organization based on natural relationship between ideas.",
+            "Transitions signal which pattern you are using."
+          ]
+        },
+        {
+          "id": "s12-04",
+          "filename": "s12-04-writing-introductory-and-concl.html",
+          "chapterNum": 8,
+          "sectionNum": "8.4",
+          "title": "Writing Introductory and Concluding Paragraphs",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s12-04-writing-introductory-and-concl.html",
+          "learningObjectives": [
+            "Write effective introductions and conclusions."
+          ],
+          "content": "## Introduction: Three Parts\n\n**Hook > Context > Thesis**\n\nHook strategies: startling statistic, provocative question, vivid anecdote, bold claim.\nAvoid: 'In this essay, I will...' / 'Since the beginning of time...'\n\n## Conclusion: Three Parts\n\n**Thesis restatement (new words) > Summary > Closing move**\n\nClosing moves: broader significance, call to action, prediction, memorable final thought.\nNever introduce new arguments in the conclusion.",
+          "keyTerms": [
+            {
+              "term": "Hook",
+              "definition": "Opening device capturing reader attention -- statistic, question, anecdote, or bold claim."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Write an introduction for a proposal recommending plain language in corporate communications.",
+              "items": []
+            },
+            {
+              "instruction": "Write a conclusion that restates thesis, synthesizes points, and ends with a call to action.",
+              "items": []
+            }
+          ],
+          "keyTakeaways": [
+            "Introduction: hook + context + thesis.",
+            "Conclusion: restate thesis + synthesize + closing move.",
+            "Never introduce new arguments in the conclusion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch9",
+      "num": 9,
+      "title": "Effective Business Writing",
+      "url": "https://saylordotorg.github.io/text_business-english-for-success/s13-effective-business-writing.html",
+      "emoji": "💼",
+      "color": "from-indigo-500 to-blue-400",
+      "sections": [
+        {
+          "id": "s13-01",
+          "filename": "s13-01-oral-versus-written-communicat.html",
+          "chapterNum": 9,
+          "sectionNum": "9.1",
+          "title": "Oral versus Written Communication",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s13-01-oral-versus-written-communicat.html",
+          "learningObjectives": [
+            "Explain similarities and differences between oral and written communication."
+          ],
+          "content": "Both forms share eight communication elements: source, receiver, message, channel, feedback, environment, context, interference.\n\n## The Key Difference: Asynchronous\n\nWritten communication is typically **asynchronous** -- no real-time interaction.\n- No immediate feedback\n- Words must stand alone without vocal tone or gestures\n- Writer must anticipate reader questions and interpretations\n\nEvery document represents you in your absence.",
+          "keyTerms": [
+            {
+              "term": "Asynchronous communication",
+              "definition": "Occurs at different times, without real-time interaction."
+            },
+            {
+              "term": "Channel",
+              "definition": "Medium through which a message travels from source to receiver."
+            },
+            {
+              "term": "Interference",
+              "definition": "Anything blocking, distorting, or disrupting the communication process."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "For each scenario, identify source, channel, and likely interference.",
+              "items": [
+                "A manager emails a remote team member about a deadline change.",
+                "A company publishes a press release on its website."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Oral and written share eight communication elements.",
+            "Written communication is typically asynchronous.",
+            "Every document represents you in your absence."
+          ]
+        },
+        {
+          "id": "s13-03",
+          "filename": "s13-03-good-writing.html",
+          "chapterNum": 9,
+          "sectionNum": "9.3",
+          "title": "Good Writing",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s13-03-good-writing.html",
+          "learningObjectives": [
+            "Identify qualities of good business writing.",
+            "Apply rhetorical elements."
+          ],
+          "content": "## Six Qualities\n\n1. Follows the rules\n2. Is easy to read\n3. Attracts the reader\n4. Meets reader expectations\n5. Is clear and concise\n6. Is efficient and effective\n\n## Rhetorical Elements\n\n**Logos** -- logical appeal: facts and structured reasoning\n**Ethos** -- credibility appeal: expertise and trustworthiness\n**Pathos** -- emotional appeal: connection to reader values",
+          "keyTerms": [
+            {
+              "term": "Logos",
+              "definition": "Rhetorical appeal to logic and reason."
+            },
+            {
+              "term": "Ethos",
+              "definition": "Rhetorical appeal to credibility and character."
+            },
+            {
+              "term": "Pathos",
+              "definition": "Rhetorical appeal to emotion and reader values."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Identify whether each sentence uses logos, ethos, or pathos.",
+              "items": [
+                "Studies across 15 countries show clear communication reduces project failure by 30%.",
+                "As a 20-year veteran, I can say this approach works.",
+                "Imagine explaining to your client why the shipment is six weeks late -- again."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Good writing: follows rules, easy to read, attracts reader, clear, concise, effective.",
+            "Balance logos, ethos, and pathos for maximum persuasion."
+          ]
+        },
+        {
+          "id": "s13-04",
+          "filename": "s13-04-style-in-written-communication.html",
+          "chapterNum": 9,
+          "sectionNum": "9.4",
+          "title": "Style in Written Communication",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s13-04-style-in-written-communication.html",
+          "learningObjectives": [
+            "Choose the appropriate writing style for a given context."
+          ],
+          "content": "## Three Styles\n\n- **Colloquial** -- informal, slang; only between close colleagues\n- **Casual** -- everyday language; internal team messages\n- **Formal** -- professional vocabulary; client correspondence, reports, proposals\n\n## Active vs. Passive Voice\n\n**Active:** *The manager approved the budget.* -- clear, direct\n**Passive:** *The budget was approved by the manager.* -- diffuses agency\n\nUse active voice as default.",
+          "keyTerms": [
+            {
+              "term": "Formal language",
+              "definition": "Professional expression with precise vocabulary and complete sentences."
+            },
+            {
+              "term": "Active voice",
+              "definition": "Subject performs the action."
+            },
+            {
+              "term": "Passive voice",
+              "definition": "Subject receives the action."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Rewrite in formal style.",
+              "items": [
+                "Hey -- we totally dropped the ball on this one, sorry."
+              ]
+            },
+            {
+              "instruction": "Convert passive to active voice.",
+              "items": [
+                "The report was completed by the analyst last Friday.",
+                "Mistakes were made in the budget calculation."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Match style to audience and context.",
+            "External communication requires formal register.",
+            "Active voice is clearer and more direct than passive."
+          ]
+        },
+        {
+          "id": "s13-05",
+          "filename": "s13-05-principles-of-written-communic.html",
+          "chapterNum": 9,
+          "sectionNum": "9.5",
+          "title": "Principles of Written Communication",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s13-05-principles-of-written-communic.html",
+          "learningObjectives": [
+            "Understand rules governing language.",
+            "Understand legal implications of business writing."
+          ],
+          "content": "## Use Concrete, Specific Language\n\n**Vague:** *We will improve customer service.*\n**Specific:** *We will reduce average call wait time from 4 minutes to 90 seconds by Q3.*\n\n## Legal Responsibility\n\n**Libel** -- written defamation: false statements damaging someone's reputation.\n- Never state opinions as facts\n- Qualify claims: 'In our view...' vs. asserting facts about competitors\n\n**Copyright** -- always cite sources; never present others' work as your own.",
+          "keyTerms": [
+            {
+              "term": "Libel",
+              "definition": "Written defamation -- a false statement damaging someone's reputation."
+            },
+            {
+              "term": "Copyright",
+              "definition": "Legal right of an author to control use and reproduction of their original work."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Identify which statements could expose a company to libel claims. Rewrite them safely.",
+              "items": [
+                "Our competitor's product has caused injuries the company is covering up.",
+                "In our opinion, our service outperforms others in the market."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Use concrete, specific language.",
+            "Libel and copyright are real legal risks in business writing.",
+            "State opinions as opinions, not facts."
+          ]
+        },
+        {
+          "id": "s13-06",
+          "filename": "s13-06-overcoming-barriers-to-effecti.html",
+          "chapterNum": 9,
+          "sectionNum": "9.6",
+          "title": "Overcoming Barriers to Effective Written Communication",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s13-06-overcoming-barriers-to-effecti.html",
+          "learningObjectives": [
+            "Identify communication barriers.",
+            "Apply strategies to overcome them."
+          ],
+          "content": "## Types of Barriers\n\n- **Physical** -- poor formatting, dense paragraphs\n- **Language** -- jargon, undefined acronyms, idioms\n- **Emotional** -- stress, defensiveness, distrust of sender\n- **Organizational** -- information silos, wrong distribution list\n\n## Strategies\n\n- Define all acronyms on first use: *Enterprise Resource Planning (ERP)*\n- Use plain language: *use* not *utilize*, *buy* not *procure*\n- Proofread -- errors undermine credibility\n- Write for global audiences: avoid idioms, be explicit",
+          "keyTerms": [
+            {
+              "term": "Communication barriers",
+              "definition": "Anything preventing a message from being received and understood as intended."
+            },
+            {
+              "term": "Plain language",
+              "definition": "Clear, direct writing avoiding unnecessary complexity."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Rewrite this paragraph to remove language barriers for a non-specialist client.",
+              "items": [
+                "We need to finalize the SOW for the ERP implementation before we can proceed with the UAT phase."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Define all acronyms on first use.",
+            "Plain language overcomes most language barriers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10",
+      "num": 10,
+      "title": "Writing Preparation",
+      "url": "https://saylordotorg.github.io/text_business-english-for-success/s14-writing-preparation.html",
+      "emoji": "🔬",
+      "color": "from-cyan-500 to-teal-400",
+      "sections": [
+        {
+          "id": "s14-01",
+          "filename": "s14-01-think-then-write-writing-prepa.html",
+          "chapterNum": 10,
+          "sectionNum": "10.1",
+          "title": "Think, Then Write: Writing Preparation",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s14-01-think-then-write-writing-prepa.html",
+          "learningObjectives": [
+            "Explain why preparation is important in business writing."
+          ],
+          "content": "## Critical Thinking in Writing\n\nCritical thinking = self-directed, disciplined evaluation of evidence.\n\n**Confirmation bias** -- seeking information that confirms existing beliefs. Combat it by gathering evidence from a range of sources.\n\n## Overcoming Fear of Writing\n\nThree sources of writing fear:\n1. Negative orientation -- build positive associations through small successes\n2. Risk of failure -- embrace rough drafts as normal process\n3. Fear of the unknown -- study examples of the document type before writing",
+          "keyTerms": [
+            {
+              "term": "Critical thinking",
+              "definition": "Self-directed, disciplined thinking that evaluates evidence objectively."
+            },
+            {
+              "term": "Confirmation bias",
+              "definition": "Seeking information confirming existing beliefs while ignoring contradictory evidence."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Identify one example of confirmation bias in a business context and explain how a writer could avoid it.",
+              "items": []
+            }
+          ],
+          "keyTakeaways": [
+            "Confirmation bias weakens arguments -- seek diverse sources.",
+            "Rough drafts are a normal and expected part of the process."
+          ]
+        },
+        {
+          "id": "s14-02",
+          "filename": "s14-02-a-planning-checklist-for-busin.html",
+          "chapterNum": 10,
+          "sectionNum": "10.2",
+          "title": "A Planning Checklist for Business Messages",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s14-02-a-planning-checklist-for-busin.html",
+          "learningObjectives": [
+            "Use a planning checklist before writing."
+          ],
+          "content": "Before writing any business message, answer:\n\n1. What is my purpose?\n2. Who is my primary audience?\n3. Who is my secondary audience?\n4. What action do I want the reader to take?\n5. What format is appropriate?\n6. What tone is appropriate?\n7. What is the deadline?\n\nPlanning time = saved revision time.",
+          "keyTerms": [
+            {
+              "term": "Planning checklist",
+              "definition": "Structured set of questions answered before writing to ensure purposeful communication."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Complete the planning checklist for this scenario: Tell your team the project deadline has moved up by one week.",
+              "items": []
+            }
+          ],
+          "keyTakeaways": [
+            "Answer all planning questions before drafting.",
+            "Planning prevents revision."
+          ]
+        },
+        {
+          "id": "s14-04",
+          "filename": "s14-04-ethics-plagiarism-and-reliable.html",
+          "chapterNum": 10,
+          "sectionNum": "10.4",
+          "title": "Ethics, Plagiarism, and Reliable Sources",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s14-04-ethics-plagiarism-and-reliable.html",
+          "learningObjectives": [
+            "Avoid plagiarism.",
+            "Evaluate source reliability."
+          ],
+          "content": "## Types of Plagiarism\n\n- Direct -- copying word for word without citation\n- Mosaic -- patching phrases with minor word changes\n- Paraphrase without citation\n- Self-plagiarism -- submitting the same work twice\n\n## The CRAAP Test\n\n| Letter | Question |\n|--------|-----------|\n| Currency | How recent? |\n| Relevance | Does it address your topic? |\n| Authority | Who wrote it? |\n| Accuracy | Are claims supported by evidence? |\n| Purpose | Why was it written? |",
+          "keyTerms": [
+            {
+              "term": "Plagiarism",
+              "definition": "Presenting another person's words or ideas as your own without attribution."
+            },
+            {
+              "term": "CRAAP test",
+              "definition": "Currency, Relevance, Authority, Accuracy, Purpose -- framework for evaluating sources."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Apply the CRAAP test to evaluate these sources.",
+              "items": [
+                "A 2023 article in the Harvard Business Review by a communication researcher.",
+                "A personal blog post from 2019 with no author listed."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Cite all ideas not your own.",
+            "CRAAP test: Currency, Relevance, Authority, Accuracy, Purpose."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch11",
+      "num": 11,
+      "title": "Writing",
+      "url": "https://saylordotorg.github.io/text_business-english-for-success/s15-writing.html",
+      "emoji": "🖊️",
+      "color": "from-fuchsia-500 to-pink-400",
+      "sections": [
+        {
+          "id": "s15-01",
+          "filename": "s15-01-organization.html",
+          "chapterNum": 11,
+          "sectionNum": "11.1",
+          "title": "Organization",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s15-01-organization.html",
+          "learningObjectives": [
+            "Organize writing logically using deductive and inductive patterns."
+          ],
+          "content": "## Deductive vs. Inductive\n\n**Deductive:** thesis first, then evidence. Best for most business writing.\n**Inductive:** evidence first, conclusion last. Use when audience might resist.\n\n## Logical Flow\n\nEach sentence connects to the one before and leads to the one after.\n\n**Test:** Cover your conclusion and try to predict it from the body. If you can, your organization is working.",
+          "keyTerms": [
+            {
+              "term": "Deductive organization",
+              "definition": "General-to-specific: thesis first, then supporting evidence."
+            },
+            {
+              "term": "Inductive organization",
+              "definition": "Specific-to-general: evidence first, then conclusion."
+            },
+            {
+              "term": "Logical flow",
+              "definition": "Smooth, coherent progression from one idea to the next."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Should this use deductive or inductive organization? Explain.",
+              "items": [
+                "A proposal recommending outsourcing to a CEO who strongly prefers in-house operations.",
+                "A quarterly performance update to a board that expects summaries first."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Deductive: thesis first (most business documents).",
+            "Inductive: builds to conclusion when audience resistance expected."
+          ]
+        },
+        {
+          "id": "s15-03",
+          "filename": "s15-03-making-an-argument.html",
+          "chapterNum": 11,
+          "sectionNum": "11.3",
+          "title": "Making an Argument",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s15-03-making-an-argument.html",
+          "learningObjectives": [
+            "Structure a logical argument.",
+            "Support claims with appropriate evidence."
+          ],
+          "content": "Every business document that recommends or analyzes is making an argument.\n\n## Elements of a Strong Argument\n\n- **Claim** -- central assertion (thesis)\n- **Evidence** -- specific, verifiable facts\n- **Reasoning** -- logical explanation connecting evidence to claim\n- **Rebuttal** -- acknowledge and respond to counterarguments\n\n## Logical Fallacies to Avoid\n\n- **Ad hominem** -- attacking the person, not the argument\n- **Straw man** -- misrepresenting the opposing view\n- **False dichotomy** -- presenting only two options when more exist",
+          "keyTerms": [
+            {
+              "term": "Claim",
+              "definition": "The central assertion of an argument."
+            },
+            {
+              "term": "Evidence",
+              "definition": "Specific, verifiable information supporting a claim."
+            },
+            {
+              "term": "Logical fallacy",
+              "definition": "Error in reasoning that invalidates an argument."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Identify the logical fallacy in each example.",
+              "items": [
+                "We can either reduce costs or lose the company -- no other option.",
+                "The CEO said this approach is best, so it must be right."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Strong arguments: claim + evidence + reasoning + rebuttal.",
+            "Address counterarguments -- it strengthens your position.",
+            "Avoid logical fallacies: ad hominem, straw man, false dichotomy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch12",
+      "num": 12,
+      "title": "Revising and Presenting Your Writing",
+      "url": "https://saylordotorg.github.io/text_business-english-for-success/s16-revising-and-presenting-your-w.html",
+      "emoji": "🔍",
+      "color": "from-slate-500 to-gray-400",
+      "sections": [
+        {
+          "id": "s16-01",
+          "filename": "s16-01-general-revision-points-to-con.html",
+          "chapterNum": 12,
+          "sectionNum": "12.1",
+          "title": "General Revision Points to Consider",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s16-01-general-revision-points-to-con.html",
+          "learningObjectives": [
+            "Apply macro-revision strategies."
+          ],
+          "content": "Revision is rethinking at the level of argument and structure.\n\n## Macro vs. Micro Revision\n\n**Macro** (do first): content, structure, argument, logic\n**Micro** (do second): paragraphs, sentences, word choice\n**Editing** (do last): grammar, spelling, punctuation\n\n## Revision Checklist\n\n- Does the thesis appear clearly and early?\n- Is the organization logical?\n- Does each section connect to the main point?\n- Is evidence sufficient and relevant?\n- Does the conclusion synthesize, not just repeat?\n\nPut the draft aside before revising -- fresh eyes catch more.",
+          "keyTerms": [
+            {
+              "term": "Macro-revision",
+              "definition": "Big-picture changes to content, structure, and argument."
+            },
+            {
+              "term": "Micro-revision",
+              "definition": "Sentence-level changes to word choice and paragraph construction."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "This paragraph needs revision. Identify what is wrong and rewrite it.",
+              "items": [
+                "Communication is very important in business. A lot of companies have problems because of this. We should all try to communicate better. In conclusion, communication matters a lot."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Revise macro (content/structure) before micro (sentences/words).",
+            "Create distance between drafting and revising."
+          ]
+        },
+        {
+          "id": "s16-05",
+          "filename": "s16-05-proofreading-and-design-evalua.html",
+          "chapterNum": 12,
+          "sectionNum": "12.5",
+          "title": "Proofreading and Design Evaluation",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s16-05-proofreading-and-design-evalua.html",
+          "learningObjectives": [
+            "Proofread effectively.",
+            "Evaluate document design."
+          ],
+          "content": "## Proofreading Strategies\n\n1. **Read aloud** -- catches awkward phrasing and missing words\n2. **Read backward** -- sentence by sentence from end to beginning\n3. **Print it** -- errors more visible on paper\n4. **Take a break first** -- fresh eyes catch more\n5. **Spell-check is just a starting point** -- misses homophones (their/there, its/it's)\n\n## Design Evaluation\n\n- Font: 11-12pt; consistent throughout\n- White space: adequate margins prevent visual fatigue\n- Headers: logical hierarchy; consistent formatting\n- Page numbers required for multi-page documents",
+          "keyTerms": [
+            {
+              "term": "Proofreading",
+              "definition": "Final check for surface errors -- after all revisions are complete."
+            },
+            {
+              "term": "White space",
+              "definition": "Blank space on a page improving readability and visual clarity."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Proofread this business email and list all errors.",
+              "items": [
+                "Dear Ms johnson Thank you for youre email regarding the contract. I have reviewed its terms and have a few concern. Their are three clauses that needs to be revised."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Proofread after all revisions -- not before.",
+            "Reading aloud catches what silent reading misses.",
+            "Spell-check misses homophone errors."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch13",
+      "num": 13,
+      "title": "Business Writing in Action",
+      "url": "https://saylordotorg.github.io/text_business-english-for-success/s17-business-writing-in-action.html",
+      "emoji": "📬",
+      "color": "from-violet-500 to-purple-400",
+      "sections": [
+        {
+          "id": "s17-01",
+          "filename": "s17-01-text-e-mail-and-netiquette.html",
+          "chapterNum": 13,
+          "sectionNum": "13.1",
+          "title": "Text, E-mail, and Netiquette",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s17-01-text-e-mail-and-netiquette.html",
+          "learningObjectives": [
+            "Write effective business emails.",
+            "Demonstrate appropriate netiquette."
+          ],
+          "content": "## Business Email Best Practices\n\n- **Subject line** -- specific and informative: *Q3 Budget Approval Needed by Friday*\n- **Salutation** -- match formality: *Dear Ms. Johnson:* (external), *Hi David,* (internal)\n- **Body** -- lead with main point; 3 paragraphs max\n- Reply within 24 hours\n- Never send in anger -- draft, wait, reread\n- Use Reply All only when everyone genuinely needs your response\n- Never use ALL CAPS\n\n## Netiquette\n\nTreat others online as you would face to face. Never write what you would not want read publicly or by your employer.",
+          "keyTerms": [
+            {
+              "term": "Netiquette",
+              "definition": "Accepted etiquette and protocols for communication on the internet."
+            },
+            {
+              "term": "Subject line",
+              "definition": "Brief, descriptive heading communicating the message's purpose."
+            },
+            {
+              "term": "Signature block",
+              "definition": "Automatically appended block with name, title, and contact information."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Rewrite this email professionally.",
+              "items": [
+                "hey team just wanted to touch base about the johnson thing. i still havent heard back which is annoying. can you follow up asap. thx"
+              ]
+            },
+            {
+              "instruction": "Evaluate this subject line and suggest an improvement.",
+              "items": [
+                "Subject: hi",
+                "Subject: IMPORTANT PLEASE READ"
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Subject lines must be specific and informative.",
+            "Reply within 24 hours; never send in anger.",
+            "Netiquette: treat digital communication with the same care as face-to-face."
+          ]
+        },
+        {
+          "id": "s17-02",
+          "filename": "s17-02-memorandums-and-letters.html",
+          "chapterNum": 13,
+          "sectionNum": "13.2",
+          "title": "Memorandums and Letters",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s17-02-memorandums-and-letters.html",
+          "learningObjectives": [
+            "Discuss the purpose and format of a memo.",
+            "Describe the fifteen parts of a business letter."
+          ],
+          "content": "## Memos\n\nInternal document communicating policies or official information.\n\n**Format:** TO: / FROM: / DATE: / SUBJECT: + Declaration + Discussion + Summary\n\nState purpose in the first sentence; objective tone; memos may have legal standing.\n\n## Business Letters\n\nExternal documents -- formal, on letterhead.\n\n**Fifteen elements:** Return address, Date, Reference (Re:), Delivery method, Recipient note, Salutation, Introduction, Body, Conclusion, Close, Signature, Typed name, Preparation line, Enclosures, CC\n\nUse colon after business salutation: *Dear Ms. Kim:*",
+          "keyTerms": [
+            {
+              "term": "Memorandum (Memo)",
+              "definition": "Brief internal document communicating policies or official business."
+            },
+            {
+              "term": "Grapevine",
+              "definition": "Unofficial informal communication network within an organization."
+            },
+            {
+              "term": "Letterhead",
+              "definition": "Pre-printed stationery displaying organization name, logo, and contact information."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Write a one-paragraph memo informing staff the office closes at noon on Friday. Include all four header elements.",
+              "items": []
+            }
+          ],
+          "keyTakeaways": [
+            "Memos for internal; letters for external communication.",
+            "Memos: state purpose first.",
+            "Both represent the organization and may have legal standing."
+          ]
+        },
+        {
+          "id": "s17-03",
+          "filename": "s17-03-business-proposal.html",
+          "chapterNum": 13,
+          "sectionNum": "13.3",
+          "title": "Business Proposal",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s17-03-business-proposal.html",
+          "learningObjectives": [
+            "Describe elements of a business proposal.",
+            "Write an effective proposal."
+          ],
+          "content": "A **business proposal** persuades an audience to accept a solution or award a contract.\n\n## Standard Structure\n\n| Section | Purpose |\n|---------|---------|\n| Executive Summary | 1-2 paragraph overview |\n| Background | History and relationship |\n| Proposal | Who, what, where, when, why, how |\n| Market Analysis | Competitive landscape |\n| Benefits | Specific value to client |\n| Timeline | Milestones with dates |\n| Budget | Costs and ROI |\n| Conclusion | Restate strengths; call to action |\n\nEvery effective proposal uses ethos (credentials), pathos (pain points), and logos (data).",
+          "keyTerms": [
+            {
+              "term": "Business proposal",
+              "definition": "Document persuading an audience to accept a solution or award a contract."
+            },
+            {
+              "term": "Executive Summary",
+              "definition": "1-2 paragraph overview summarizing key points and value proposition."
+            },
+            {
+              "term": "Request for Proposal (RFP)",
+              "definition": "Formal document inviting vendors to submit proposals."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Write an executive summary (2 paragraphs) for a proposal to implement a new internal communication platform.",
+              "items": []
+            }
+          ],
+          "keyTakeaways": [
+            "Effective proposals use ethos, pathos, and logos.",
+            "Executive summary is the most-read section.",
+            "Be specific: vague claims lose proposals."
+          ]
+        },
+        {
+          "id": "s17-04",
+          "filename": "s17-04-report.html",
+          "chapterNum": 13,
+          "sectionNum": "13.4",
+          "title": "Report",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s17-04-report.html",
+          "learningObjectives": [
+            "Understand informational vs. analytical reports.",
+            "Discuss the main parts of a report."
+          ],
+          "content": "## Two Main Types\n\n**Informational** -- presents facts without analysis.\n**Analytical** -- presents data plus analysis, conclusions, and recommendations.\n\n## Standard Structure\n\nTitle Page > Abstract/Executive Summary > Introduction > Body (Background, Methodology, Results, Analysis) > Conclusion > References > Appendices\n\nEvery report answers: Who? What? Where? When? Why? How?",
+          "keyTerms": [
+            {
+              "term": "Informational report",
+              "definition": "Presents facts without analysis -- no conclusions or recommendations."
+            },
+            {
+              "term": "Analytical report",
+              "definition": "Presents data plus analysis, conclusions, and recommendations."
+            },
+            {
+              "term": "Abstract",
+              "definition": "Brief summary at beginning highlighting key topics, methods, and findings."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Classify as informational or analytical and explain why.",
+              "items": [
+                "A weekly sales summary showing units sold by region.",
+                "A study analyzing why sales fell 20% in Q2, identifying causes, and recommending action."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Informational: facts only; analytical: facts + analysis + recommendations.",
+            "All reports answer who, what, where, when, why, how."
+          ]
+        },
+        {
+          "id": "s17-05",
+          "filename": "s17-05-resume.html",
+          "chapterNum": 13,
+          "sectionNum": "13.5",
+          "title": "Resume",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s17-05-resume.html",
+          "learningObjectives": [
+            "Describe types of resumes.",
+            "Write an effective resume."
+          ],
+          "content": "A **resume** summarizes education, skills, and experience. Its one purpose: get an interview.\n\n## Five Types\n\n| Type | Best for |\n|------|-----------|\n| Reverse chronological | Steady career progression |\n| Functional | Career changers |\n| Combination | Experienced professionals |\n| Targeted | Competitive positions |\n| Scannable | Companies using ATS |\n\n## Scannable Resume Tips\n\nMirror job description language; standard fonts; no tables or graphics (confuse ATS software).",
+          "keyTerms": [
+            {
+              "term": "Resume",
+              "definition": "Document summarizing education, skills, and experience for employers."
+            },
+            {
+              "term": "Reverse chronological",
+              "definition": "Listing experiences starting with most recent, working backward."
+            },
+            {
+              "term": "Scannable resume",
+              "definition": "Resume formatted for ATS software -- no graphics, standard fonts, keyword-optimized."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Which is stronger and why?",
+              "items": [
+                "a) Responsible for handling customer complaints. b) Resolved 95% of complaints within 24 hours, achieving highest satisfaction score in the department (Q2 2023)."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Resume goal: earn an interview.",
+            "Mirror job description language for ATS optimization.",
+            "Accomplishment bullets should be specific and quantified."
+          ]
+        },
+        {
+          "id": "s17-06",
+          "filename": "s17-06-sales-message.html",
+          "chapterNum": 13,
+          "sectionNum": "13.6",
+          "title": "Sales Message",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s17-06-sales-message.html",
+          "learningObjectives": [
+            "Structure an effective sales message."
+          ],
+          "content": "A **sales message** intrigues, informs, persuades, calls to action, and closes.\n\n## Five-Part Structure\n\n| Part | Function |\n|------|-----------|\n| Attention Statement | Hook immediately |\n| Introduction | Build interest; establish relevance |\n| Body | Credibility + benefits + handle objections |\n| Conclusion | Summarize value; specific call to action |\n| Residual Message | What you want them to remember |\n\n**Sell benefits, not features:**\nFeature: *The platform has 99.9% uptime.*\nBenefit: *You will never miss a client deadline because of a system outage.*",
+          "keyTerms": [
+            {
+              "term": "Sales message",
+              "definition": "Persuasive communication moving a reader toward a purchase or action."
+            },
+            {
+              "term": "Benefit",
+              "definition": "What the buyer gains -- the outcome that motivates purchase."
+            },
+            {
+              "term": "Call to action",
+              "definition": "Specific, clear request directing reader to take a next step."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Convert these features into benefits.",
+              "items": [
+                "Our software processes requests in 0.3 seconds.",
+                "The contract includes 24/7 phone support."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Sell benefits not features.",
+            "Lead with strongest benefit; one call to action per message."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch14",
+      "num": 14,
+      "title": "APA and MLA Documentation and Formatting",
+      "url": "https://saylordotorg.github.io/text_business-english-for-success/s18-apa-and-mla-documentation-and-.html",
+      "emoji": "📚",
+      "color": "from-emerald-500 to-teal-400",
+      "sections": [
+        {
+          "id": "s18-01",
+          "filename": "s18-01-formatting-a-research-paper.html",
+          "chapterNum": 14,
+          "sectionNum": "14.1",
+          "title": "Formatting a Research Paper",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s18-01-formatting-a-research-paper.html",
+          "learningObjectives": [
+            "Understand APA and MLA formatting.",
+            "Apply correct formatting."
+          ],
+          "content": "## APA Format (Social Sciences)\n\n12pt Times New Roman, double-spaced, 1-inch margins\n- Title page, abstract (150-250 words), running head\n- In-text: (Author, Year, p. XX)\n- References page at end\n\n## MLA Format (Humanities)\n\n12pt Times New Roman, double-spaced, 1-inch margins\n- Header: last name + page number\n- No separate title page\n- In-text: (Author Page)\n- Works Cited page at end",
+          "keyTerms": [
+            {
+              "term": "APA",
+              "definition": "American Psychological Association format -- used in social sciences."
+            },
+            {
+              "term": "MLA",
+              "definition": "Modern Language Association format -- used in humanities."
+            },
+            {
+              "term": "Abstract",
+              "definition": "150-250 word summary at beginning of APA papers."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "What are the three most important formatting differences between APA and MLA?",
+              "items": []
+            }
+          ],
+          "keyTakeaways": [
+            "APA for social sciences; MLA for humanities.",
+            "APA in-text: (Author, Year); MLA: (Author Page)."
+          ]
+        },
+        {
+          "id": "s18-02",
+          "filename": "s18-02-citing-and-referencing-techniq.html",
+          "chapterNum": 14,
+          "sectionNum": "14.2",
+          "title": "Citing and Referencing Techniques",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s18-02-citing-and-referencing-techniq.html",
+          "learningObjectives": [
+            "Use in-text citations correctly."
+          ],
+          "content": "Cite every time you use information from a source -- quoted, paraphrased, or summarized.\n\n**APA:** (Author, Year, p. XX) for direct quotes; (Author, Year) for paraphrases\n**MLA:** (Author Page)\n\n## Signal Phrases\n\n*According to Lee (2022), ... / Lee argues that ... / Research by Kim (2021) demonstrates ...*\n\n## Block Quotations\n\nAPA: 40+ words -- indent 0.5 inches, no quotation marks\nMLA: 4+ lines -- indent 1 inch, no quotation marks",
+          "keyTerms": [
+            {
+              "term": "In-text citation",
+              "definition": "Parenthetical reference within paper body pointing to full bibliography entry."
+            },
+            {
+              "term": "Signal phrase",
+              "definition": "Phrase introducing a source (According to..., Smith argues...)."
+            },
+            {
+              "term": "Block quotation",
+              "definition": "Lengthy quote formatted separately: indented, no quotation marks."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Write an in-text citation in both APA and MLA formats.",
+              "items": [
+                "Direct quote from page 23 of a book by Wilson published in 2020."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "Cite direct quotes, paraphrases, statistics, and specific arguments.",
+            "Signal phrases integrate citations smoothly."
+          ]
+        },
+        {
+          "id": "s18-03",
+          "filename": "s18-03-creating-a-references-section.html",
+          "chapterNum": 14,
+          "sectionNum": "14.3",
+          "title": "Creating a References Section",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s18-03-creating-a-references-section.html",
+          "learningObjectives": [
+            "Create APA References and MLA Works Cited pages."
+          ],
+          "content": "## APA References Page\n\nTitle: **References** (centered, bold)\nAlphabetical, double-spaced, hanging indent.\n\n**Book:** Author, A. A. (Year). *Title*. Publisher.\n**Journal:** Author, A. A. (Year). Article title. *Journal Name, Volume*(Issue), pages. DOI\n\n## MLA Works Cited\n\nTitle: **Works Cited** (centered)\nAlphabetical, double-spaced, hanging indent.\n\n**Book:** Author Last, First. *Title*. Publisher, Year.\n**Journal:** Author. 'Article Title.' *Journal Name*, vol. #, no. #, Year, pp. #-#.",
+          "keyTerms": [
+            {
+              "term": "References page",
+              "definition": "APA bibliography -- alphabetical, hanging indent."
+            },
+            {
+              "term": "Works Cited",
+              "definition": "MLA bibliography -- alphabetical, hanging indent."
+            },
+            {
+              "term": "Hanging indent",
+              "definition": "First line flush left; all subsequent lines indented."
+            },
+            {
+              "term": "DOI",
+              "definition": "Digital Object Identifier -- permanent URL for academic journal articles."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Format in APA References format.",
+              "items": [
+                "Book: Writing for Results by Sally Jones, McGraw-Hill, 2019."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "APA = References; MLA = Works Cited.",
+            "Both use alphabetical order and hanging indent."
+          ]
+        },
+        {
+          "id": "s18-04",
+          "filename": "s18-04-using-modern-language-associat.html",
+          "chapterNum": 14,
+          "sectionNum": "14.4",
+          "title": "Using Modern Language Association (MLA) Style",
+          "url": "https://saylordotorg.github.io/text_business-english-for-success/s18-04-using-modern-language-associat.html",
+          "learningObjectives": [
+            "Apply MLA formatting and citation style."
+          ],
+          "content": "MLA is standard in literature, language, and the humanities.\n\n## In-Text Citations\n\n**(Author Page)** -- no comma: *(McLean 247)*\n\n## Works Cited -- MLA 9th Edition\n\nThe **container concept**: every source exists within a larger container (journal, anthology, website).\n\n**Article:** Kim, Sarah. 'Plain Language in Business.' *Business Writing Today*, vol. 4, no. 2, 2021, pp. 12-18.\n\n**Website:** U.S. Department of Labor. 'Plain Language Guidelines.' *DOL.gov*, 15 Mar. 2022, www.dol.gov/plain.",
+          "keyTerms": [
+            {
+              "term": "MLA style",
+              "definition": "Humanities citation format -- in-text (Author Page), Works Cited bibliography."
+            },
+            {
+              "term": "Container",
+              "definition": "MLA 9th: larger publication holding a source (journal, anthology, website)."
+            }
+          ],
+          "exercises": [
+            {
+              "instruction": "Write MLA Works Cited entries.",
+              "items": [
+                "A webpage titled Grammar in the Workplace on PlainLanguage.gov, updated June 10, 2023."
+              ]
+            }
+          ],
+          "keyTakeaways": [
+            "MLA in-text: (Author Page) -- no comma.",
+            "Works Cited uses container concept."
+          ]
+        }
+      ]
+    }
+  ]
+}

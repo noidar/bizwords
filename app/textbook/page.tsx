@@ -1,14 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { textbookChapters, totalParsedSections } from "@/data/textbook";
+import parsedData from "@/data/textbook-parsed.json";
 import { bookMeta } from "@/data/resources";
 
-export default function TextbookIndexPage() {
-  const parsedChapters = textbookChapters.filter((c) => c.sections.length > 0);
-  const stubChapters = textbookChapters.filter((c) => c.sections.length === 0);
+type Chapter = { id: string; num: number; title: string; url: string; emoji: string; color: string; sections: unknown[] };
+const allChapters = (parsedData as { chapters: Chapter[] }).chapters;
+const totalParsedSections = (parsedData as { stats: { parsedSections: number } }).stats.parsedSections;
 
-  const totalSections = textbookChapters.reduce((s, c) => s + c.sections.length, 0);
+export default function TextbookIndexPage() {
+  const parsedChapters = allChapters.filter((c) => c.sections.length > 0);
+  const stubChapters = allChapters.filter((c) => c.sections.length === 0);
+
+  const totalSections = totalParsedSections;
   const allParsed = stubChapters.length === 0;
 
   return (
